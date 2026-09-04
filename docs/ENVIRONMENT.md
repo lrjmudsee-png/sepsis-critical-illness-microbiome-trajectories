@@ -1,4 +1,4 @@
-# Sepsis V2 verified environment
+# Verified analysis environment
 
 ## Final figure/table package session
 
@@ -36,4 +36,3 @@ Source: `results/V2_97A_FINAL_FIGURE_AND_TABLE_PACKAGE/04_PROVENANCE_AND_QC/sess
 - Python metadata-processing dependencies were not captured at the time of every historical step.
 - Some package logs report packages built under a later R patch version than the R 4.4.0 runtime. Final output comparisons did not show numerical differences, but a locked release environment is still recommended.
 - Exact executable paths are Windows-specific in the historical scripts.
-

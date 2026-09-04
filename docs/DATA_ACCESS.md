@@ -1,4 +1,4 @@
-# Sepsis V2 data access and checkpoints
+# Study data access and analysis checkpoints
 
 ## Public cohorts used in the manuscript
 
@@ -44,4 +44,3 @@ Deposit the following in a repository with a permanent DOI before submission or 
 5. Accession-to-sample/run inclusion manifest.
 
 The repository name, release tag, URL and DOI remain author-supplied fields and must be inserted into the manuscript, cover letter and Data/Code Availability statement.
-

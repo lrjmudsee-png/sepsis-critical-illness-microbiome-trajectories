@@ -1,6 +1,6 @@
-# Sepsis V2 microbiome trajectory analysis
+# Longitudinal gut-microbiome trajectories in sepsis and critical illness
 
-Code-availability repository for the Sepsis V2 study of longitudinal gut-microbiome ecological displacement and heterogeneous taxonomic trajectories across critical-illness cohorts.
+Code-availability repository for the study of longitudinal gut-microbiome ecological displacement and heterogeneous taxonomic trajectories across sepsis and critical-illness cohorts.
 
 ## Repository contents
 
@@ -69,4 +69,4 @@ The repository preserves superseded and repair scripts because they document how
 
 ## Code availability statement
 
-Analysis code, run order, environment information, public data accessions, and machine-readable terminal reproduction checks for this study are available at <https://github.com/lrjmudsee-png/sepsis-v2-code-availability>. Raw sequence data remain available from their originating public archives under the accessions listed above.
+Analysis code, run order, environment information, public data accessions, and machine-readable terminal reproduction checks for this study are available at <https://github.com/lrjmudsee-png/sepsis-critical-illness-microbiome-trajectories>. Raw sequence data remain available from their originating public archives under the accessions listed above.
