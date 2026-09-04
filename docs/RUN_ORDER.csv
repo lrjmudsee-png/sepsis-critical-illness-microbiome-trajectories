@@ -1,0 +1,50 @@
+﻿Step,Script,ResultsDir,Purpose
+60,60_build_v2_project_inventory.ps1,V2_00_inventory,项目盘点
+61,61_profile_v2_metadata.py / _V2.py,V2_01_metadata_profile,元数据画像
+63,63_fetch_v2_public_metadata.py,V2_03_metadata_collection,元数据收集
+64,64_fetch_missing_public_resources.py,(并入 03/05),缺失公共资源获取
+65,65_audit_v2_metadata_coverage.py/.R,V2_05_metadata_coverage,元数据覆盖率审计
+66,66_build_sample_patient_time_map.R,V2_06_sample_patient_time_map,样本-患者-时间映射
+67,67_repair_and_adjudicate_v2_mapping.R,V2_07_mapping_repair,映射修复裁决
+68,68_resolve_remaining_public_metadata.R,V2_08_remaining_metadata_resolution,剩余元数据解决
+69,69_final_public_metadata_rescue.R,V2_09_final_metadata_rescue,最终元数据营救(STEP69)
+70/70B,70_finalize_PRJEB82425_PRJEB67798_mapping.R / 70B_finish_exact_metadata_mapping.R,V2_10_exact_metadata_mapping,精确元数据映射
+71/71B,71_classify_..._from_FASTQ.R / 71B_finalize_..._body_site.R,V2_11_PRJEB82425_body_site(_final),采样部位判定
+72,72_build_v2_master_metadata.R,V2_12_master_metadata,主元数据表
+73,73_merge_legacy_into_v2_full_master.R,V2_13_full_master_metadata,全量主元数据
+74,74_audit_v2_longitudinal_eligibility.R,V2_14_longitudinal_eligibility,纵向资格(STEP74)
+75,75_triage_missing_v2_projects.R,V2_15_missing_project_triage,缺失项目分流
+76/76B/C/D,76_rescue_high_value_missing_cohorts.R 等,V2_16(_B/C/D)_high_value_metadata_rescue(_fixed),高价值元数据营救
+77,77_finalize_68229_adjudicate_1125274.R,V2_17_finalize_68229_adjudicate_1125274,68229定案/1125274裁决
+78A/78A2,78A_rescue_PRJNA851469_CRA002354.R / 78A2_robust_...R,V2_18A(_2),851469/CRA002354营救
+78A3,78A3_US_fast_download_supplements.ps1 (code\02_data_download),V2_18A3_US_fast_download,美国高速下载
+78A4/A4B,78A4/A4B_download_PRJNA851469_Nature*.ps1 (code\02_data_download),V2_18A4(_B)_Nature_single_download,Nature单篇下载
+79,79_parse_PRJNA851469_CRA002354_metadata_OFFLINE.R,V2_19_offline_metadata_parse,离线元数据解析
+80/80B-F,80_finalize_..._OFFLINE.R / 80B-80F,V2_20(_B-F),核心元数据定稿/精确映射
+81/81B/C/D,81_build_FINAL_frozen_master_and_audit.R / 81B/C/D,V2_21(_B/C/D),最终队列冻结(STEP81D终版)
+82/82B/C,82_audit_ASV_and_raw_sequence_readiness.R / 82B/C,V2_22(_B/C),ASV现表验证/路线冻结
+83A,83A_build_canonical_analysis_workspace.R,V2_23A_CANONICAL_WORKSPACE_BUILD,规范工作区(硬链接,STEP83A)
+83B/C,83B_audit_read_quality_primer_...R / 83C_freeze_platform_...R,V2_23B/C,读长质量/平台参数冻结
+84A/A2,84A_run_5sample_DADA2_pilot.R / 84A2_retry_...R,V2_24A(_2),DADA2试点
+84B系列,84B_run_full_cohort_DADA2.R / 84B3 / 84B4A / 84B4B / 84B_resume_parallel_manager.ps1,V2_24B(_3/4A/4B),全量DADA2/样本级/批次去嵌合
+84C,84C_finalize_PRJNA516701_and_close_paired_DADA2_batch.R,V2_24C_PAIRED_DADA2_CLOSEOUT,配对收官
+85A/A2/A3,85A_assign_SILVA1382_taxonomy_...R / A2_FIXED_MD5 / A3_ZENODO,V2_25A(_2/_3),SILVA138.2分类
+85B/B2,85B_taxonomy_QC_and_depth_audit.R / B2_FIXED,V2_25B(_2),分类QC与深度审计
+85C,85C_86A_freeze_taxonomy_filter_...R,V2_25C_86A_TAXONOMY_FILTER...,分类过滤+纵向深度审计
+86B,86B_correct_depth_audit_and_freeze_min2000.R,V2_26B_DEPTH2000_FINAL_ANALYSIS_READY,深度≥2000冻结
+87A/A2,87A_rebuild_full_analysis_metadata_...R / A2_FIXED,V2_27A(_2),分析元数据重建+重复审计
+87B,87B_freeze_replicate_rule_and_build_analysis_objects.R,V2_27B_ANALYSIS_OBJECTS_AND_REPLICATE_FREEZE,分析对象冻结(STEP87B)
+88A/A2,88A_longitudinal_diversity_and_displacement.R / A2_FIXED,V2_28A(_2),STEP88A 纵向多样性+位移
+88B,88B_anchor_robustness_and_paired_contrasts.R,V2_28B_STEP88B_...,STEP88B 锚点稳健性
+89A/A2,89A_taxonomic_paired_trajectory_screen.R / A2_FIXED,V2_29A(_2),STEP89A 分类配对轨迹
+89B,89B_taxonomic_robustness_and_provenance.R,V2_29B,STEP89B 分类稳健性
+90A/90B,90A_ecological_robustness_...R / 90B_corrected_coherence_inference.R,V2_30A/V2_30B,STEP90 生态稳健性
+91A/91B系列,91A_infection_source_feasibility_audit.R / 91B/B2/B3/B4,V2_31A/V2_31B(_2/_3/_4),STEP91 感染来源
+92A-D,92A_EII_feasibility_audit.R / 92B(_2) / 92C / 92D,V2_32A-D,STEP92 EII构建与验证
+93A-X4,93A-93X4 系列 R 脚本 + RUN_STEP93*.ps1,V2_33A-X4,STEP93 分类异质性/轨迹/外部验证
+94A-B3C,94A-94B3C 系列 R 脚本,V2_34A-B3C,STEP94 CRA002354 OTU97/来源分析
+95A-G,95A-95G 系列 R 脚本,V2_35A-G,STEP95 证据综合/稿件源包/图表
+36B-J,V2_36B-J *.R + RUN_STEP_V2_36*.ps1,V2_36B-J,临床元数据深审/结局模型/跨队列可复现性
+96B-K3,V2_96B-K3 *.R + RUN_STEP_V2_96*.ps1,V2_96B-K3,STEP96 论文整合/参考文献/正文终稿
+96F2-F11,【无脚本】,V2_96F2-F11,图美化（仅sessionInfo/QC/图，需补代码）
+97A,V2_97A_export_submission_bundle.ps1,V2_97A_FINAL_FIGURE_AND_TABLE_PACKAGE,从投稿用最终文件导出ZIP并生成SHA256清单（不重建缺失的96F图形美化步骤）

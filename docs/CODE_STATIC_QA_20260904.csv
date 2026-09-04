@@ -1,0 +1,7 @@
+Check,Files_scanned,Errors_or_warnings,Status,Notes
+R_parse,182,0,PASS,"R 4.4.0 parse() after repairs to Steps 68, 80, 89A, and 91B"
+Python_compile,5,0,PASS,"Compiled with warnings treated as errors after raw-docstring repairs to Steps 61 and 63"
+PowerShell_parse,139,0,PASS,"Includes V2_97A_export_submission_bundle.ps1"
+Hardcoded_project_root,326,325,LIMITATION,"Historical scripts still reference E:/sepsis_project or E:\\sepsis_project"
+Automatic_dependency_install,326,67,LIMITATION,"Replace install-at-runtime behavior with a locked environment before portable public release"
+Missing_figure_beautification_source,1,1,LIMITATION,"Independent scripts for the 96F2-96F11 layout iterations were not recovered"

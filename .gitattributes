@@ -1,0 +1,3 @@
+# Preserve the released bytes exactly so MANIFEST_SHA256.csv remains
+# verifiable across platforms and Git configuration choices.
+* -text

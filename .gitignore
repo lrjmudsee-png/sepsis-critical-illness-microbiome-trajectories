@@ -1,0 +1,39 @@
+# Raw and processed data
+data/
+metadata/
+processed_data/
+results/
+raw_data/
+
+# R and Python session/cache files
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated archives and binary outputs
+*.zip
+*.7z
+*.tar
+*.gz
+*.fastq
+*.fq
+*.fasta
+*.fa
+*.bam
+*.sam
+
+# Local run roots and logs
+reproduction_run_*/
+logs/
+*.stdout.log
+*.stderr.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

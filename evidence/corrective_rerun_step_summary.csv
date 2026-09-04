@@ -1,0 +1,8 @@
+"Script","ExitCode","ElapsedSeconds","StdoutLog","StderrLog"
+"03_93X4_external_validation_evidence_freeze.R","0","1.587","logs/CORRECTED_03_93X4_external_validation_evidence_freeze.stdout.log","logs/CORRECTED_03_93X4_external_validation_evidence_freeze.stderr.log"
+"06_95A2_global_evidence_synthesis_source_anchor_fix.R","0","4.733","logs/CORRECTED_06_95A2_global_evidence_synthesis_source_anchor_fix.stdout.log","logs/CORRECTED_06_95A2_global_evidence_synthesis_source_anchor_fix.stderr.log"
+"07_95B_manuscript_source_pack_assembly.R","0","1.352","logs/CORRECTED_07_95B_manuscript_source_pack_assembly.stdout.log","logs/CORRECTED_07_95B_manuscript_source_pack_assembly.stderr.log"
+"08_95C_manuscript_architecture_figure1_and_main_tables.R","0","1.448","logs/CORRECTED_08_95C_manuscript_architecture_figure1_and_main_tables.stdout.log","logs/CORRECTED_08_95C_manuscript_architecture_figure1_and_main_tables.stderr.log"
+"09_95E2_table1_analysis_population_fix_and_results_v2.R","0","2.353","logs/CORRECTED_09_95E2_table1_analysis_population_fix_and_results_v2.stdout.log","logs/CORRECTED_09_95E2_table1_analysis_population_fix_and_results_v2.stderr.log"
+"10_95F3_results_and_table1_final_freeze_sentence_audit.R","0","1.241","logs/CORRECTED_10_95F3_results_and_table1_final_freeze_sentence_audit.stdout.log","logs/CORRECTED_10_95F3_results_and_table1_final_freeze_sentence_audit.stderr.log"
+"11_95G_supplementary_tables_and_discussion_v1.R","0","1.539","logs/CORRECTED_11_95G_supplementary_tables_and_discussion_v1.stdout.log","logs/CORRECTED_11_95G_supplementary_tables_and_discussion_v1.stderr.log"
