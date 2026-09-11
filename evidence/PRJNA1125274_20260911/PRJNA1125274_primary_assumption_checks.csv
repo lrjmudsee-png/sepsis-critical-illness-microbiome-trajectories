@@ -1,0 +1,3 @@
+"metric","n_patients","check","statistic","p_value","interpretation"
+"bray_from_T0",24,"Shapiro-Wilk on paired differences",0.8883637862635905,0.012297816415214654,"NORMALITY_DEPARTURE_DETECTED_USE_WILCOXON_AS_ROBUSTNESS"
+"aitchison_from_T0_CZM",24,"Shapiro-Wilk on paired differences",0.9593850417566143,0.42619242129935825,"NO_STRONG_NORMALITY_DEPARTURE_DETECTED"

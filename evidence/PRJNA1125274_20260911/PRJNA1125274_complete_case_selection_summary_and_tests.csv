@@ -1,0 +1,12 @@
+"record_type","comparison","variable","level","n","value_1","value_1_label","value_2","value_2_label","value_3","value_3_label","test","statistic","p_value"
+"DESCRIPTIVE","COMPLETE_VS_BASELINE_INCOMPLETE","t0_depth","COMPLETE_T0_T1_T2",30,42507,"median",32510.75,"q1",69813.25,"q3","",,
+"DESCRIPTIVE","COMPLETE_VS_BASELINE_INCOMPLETE","t0_depth","INCOMPLETE_AFTER_BASELINE",86,45582,"median",29924.75,"q1",77834.75,"q3","",,
+"DESCRIPTIVE","COMPLETE_VS_BASELINE_INCOMPLETE","n_depth_qualified_runs","COMPLETE_T0_T1_T2",30,3,"median",3,"q1",3,"q3","",,
+"DESCRIPTIVE","COMPLETE_VS_BASELINE_INCOMPLETE","n_depth_qualified_runs","INCOMPLETE_AFTER_BASELINE",86,2,"median",2,"q1",2,"q3","",,
+"DESCRIPTIVE","COMPLETE_VS_BASELINE_INCOMPLETE","hospital","COMPLETE_T0_T1_T2:ALESSANDRIA",23,0.7666666666666667,"proportion",,"",,"","",,
+"DESCRIPTIVE","COMPLETE_VS_BASELINE_INCOMPLETE","hospital","COMPLETE_T0_T1_T2:NOVARA",7,0.23333333333333334,"proportion",,"",,"","",,
+"DESCRIPTIVE","COMPLETE_VS_BASELINE_INCOMPLETE","hospital","INCOMPLETE_AFTER_BASELINE:ALESSANDRIA",54,0.627906976744186,"proportion",,"",,"","",,
+"DESCRIPTIVE","COMPLETE_VS_BASELINE_INCOMPLETE","hospital","INCOMPLETE_AFTER_BASELINE:NOVARA",32,0.37209302325581395,"proportion",,"",,"","",,
+"TEST","COMPLETE_VS_BASELINE_INCOMPLETE","hospital","",116,,"",,"",,"","Fisher exact",,0.186006187376857
+"TEST","COMPLETE_VS_BASELINE_INCOMPLETE","t0_depth","",116,,"",,"",,"","Wilcoxon rank sum",1283,0.9673096403658784
+"TEST","COMPLETE_VS_BASELINE_INCOMPLETE","n_depth_qualified_runs","",116,,"",,"",,"","Wilcoxon rank sum",2580,1.122848522696462e-20

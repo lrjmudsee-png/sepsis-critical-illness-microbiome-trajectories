@@ -4,11 +4,11 @@ Code-availability repository for the study of longitudinal gut-microbiome ecolog
 
 ## Repository contents
 
-- `analysis/`: 326 source scripts (182 R, 139 PowerShell, and 5 Python) preserving the complete analysis history.
+- `analysis/`: 342 source scripts (196 R, 139 PowerShell, and 7 Python) preserving the complete analysis history through the PRJNA1125274 validation and governance audit.
 - `docs/RUN_ORDER.csv`: ordered map from metadata recovery and sequence processing to statistics and manuscript assembly.
 - `docs/DATA_ACCESS.md`: public cohort accessions and local checkpoint definitions.
 - `docs/ENVIRONMENT.md`: verified software and package versions.
-- `evidence/`: records from the independently isolated terminal reproduction run performed on 2026-09-04.
+- `evidence/`: records from the independently isolated terminal reproduction run performed on 2026-09-04, plus the downstream PRJNA1125274 validation audit completed on 2026-09-11.
 - `tools/V2_REPRODUCE_TERMINAL_CHAIN.ps1`: runner for the 11-step frozen-input-to-manuscript terminal chain.
 
 Raw sequencing reads, patient-level data, analysis workspaces, generated result trees, caches, and local directory links are not included in this repository.
@@ -32,6 +32,12 @@ The frozen-input terminal chain was rerun in an isolated result root on Windows 
 - 42/42 text and completion-marker files matched after normalizing paths and timestamps.
 
 See `evidence/REPRODUCTION_REPORT_20260904.md` and the machine-readable comparison tables in `evidence/`.
+
+## PRJNA1125274 downstream validation
+
+The Step98 series adds the external longitudinal cohort, patient-metadata reconciliation, frozen-result governance, non-target-feature and ASV-threshold sensitivities, complete-case selection audit, statistical-assumption checks, and reproducibility verification. The final report and machine-readable summaries are in `evidence/PRJNA1125274_20260911/`.
+
+These downstream checks did not rerun FASTQ preprocessing or DADA2. The author-adjudicated 132-person clinical roster and clinical covariates needed for a definitive 132-versus-134 resolution and clinical attrition/confounding analysis are not available in this repository.
 
 ## Reproduction levels
 

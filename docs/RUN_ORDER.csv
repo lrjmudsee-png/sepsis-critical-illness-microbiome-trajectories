@@ -48,3 +48,8 @@
 96B-K3,V2_96B-K3 *.R + RUN_STEP_V2_96*.ps1,V2_96B-K3,STEP96 论文整合/参考文献/正文终稿
 96F2-F11,【无脚本】,V2_96F2-F11,图美化（仅sessionInfo/QC/图，需补代码）
 97A,V2_97A_export_submission_bundle.ps1,V2_97A_FINAL_FIGURE_AND_TABLE_PACKAGE,从投稿用最终文件导出ZIP并生成SHA256清单（不重建缺失的96F图形美化步骤）
+98A-B,98A_aitchison_longitudinal_robustness.R / 98B_longitudinal_random_effects_meta_analysis.R,V2_UPGRADE_20260907,STEP98A-B Aitchison稳健性与纵向随机效应荟萃分析
+98C-F,98C_PRJNA1125274_metadata_and_run_freeze.R / 98D-D3 / 98E / 98F,V2_UPGRADE_20260907,STEP98C-F PRJNA1125274元数据冻结、序列处理、外部验证与证据冻结
+98G-G4,98G_PRJNA1125274_patient_reconciliation.py / 98G2-G4,V2_UPGRADE_20260909,STEP98G 患者级metadata reconciliation及主统计/孤立样本敏感性核验
+98H,98H_PRJNA1125274_final_governance_freeze.R,V2_UPGRADE_20260910_FINAL_FREEZE,STEP98H 最终统计治理冻结
+98I-I3,98I_remaining_validation_no_fastq.R / 98I2_CZM_5_2_diagnostics.R / 98I3_finalize_remaining_validation.R,V2_UPGRADE_20260910_REMAINING_VALIDATION,STEP98I 非目标特征/阈值敏感性、完整病例选择、假设检查与复现终审（不重跑FASTQ/DADA2）
