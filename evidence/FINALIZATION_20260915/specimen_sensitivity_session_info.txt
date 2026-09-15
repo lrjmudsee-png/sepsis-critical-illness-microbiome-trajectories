@@ -1,0 +1,25 @@
+Post-hoc governance sensitivity; same fixed distances and count sums; no sequence processing.
+SAME_ALL_AVAILABLE includes the frozen no-explicit-anchor patient; SAME_ALL_WITH_EXPLICIT_ANCHOR excludes this patient.
+All sensitivity p values and intervals are nominal, not new primary tests. Low sample sizes and swab soiling remain limitations.
+R version 4.4.0 (2024-04-24 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 26200)
+
+Matrix products: default
+
+
+locale:
+[1] C
+system code page: 65001
+
+time zone: Asia/Hong_Kong
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+ [1] compiler_4.4.0      Matrix_1.7-0        tools_4.4.0        
+ [4] metafor_5.0-1       mathjaxr_2.0-0      nlme_3.1-164       
+ [7] metadat_1.6-0       grid_4.4.0          digest_0.6.39      
+[10] numDeriv_2016.8-1.1 lattice_0.22-6     

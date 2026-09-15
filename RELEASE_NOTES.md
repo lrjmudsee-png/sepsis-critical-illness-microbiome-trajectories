@@ -1,5 +1,10 @@
 # Release notes
 
+## Repository-only finishing update 2026-09-15
+
+Added the 99 direction snapshot, two parameterized statistical entries, aggregate negative results, post-hoc specimen-consistency/cohort-exclusion sensitivity and isolated-directory test evidence. Original scientific inputs/primary results remain frozen. Processed patient inputs are local author-review only, software citation is an inactive template, and no GitHub release or Zenodo publication was created.
+
+
 ## Post-release validation update — 2026-09-11
 
 - Added 16 Step98 source scripts covering PRJNA1125274 external validation, patient-level metadata reconciliation, final governance, and remaining downstream checks.

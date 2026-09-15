@@ -1,0 +1,18 @@
+﻿check_id,status,observed,expected,evidence
+PRIMARY_N_PRJNA691455,PASS,9/9,9/9,B04 n_expected/n_analyzed
+PRIMARY_N_PRJNA851469,PASS,14/14,14/14,B04 n_expected/n_analyzed
+PRIMARY_N_PRJNA516701,PASS,15/12,15/12,B04 n_expected/n_analyzed
+PRIMARY_N_PRJNA1125274,PASS,24/24,24/24,B04 n_expected/n_analyzed
+DOUBLE_ZERO_EXCLUSION_516701,PASS,3516|3669|3927,3516|3669|3927,B03 frozen-pair exclusion ledger
+SAMPLE_BALANCE_FORMULA_SPOTCHECK,PASS,7.69616213302048,7.696162133020479,B01 first row PRJNA691455::SRR13423223
+PAIR_FORMULA_HANDCHECK,PASS,0.0,<=1e-12,B12 two independently selected pairs
+HOLM_EXACT_TWO_TEST_FAMILY,PASS,n=2;max_error=0.0,n=2;max_error<=1e-12,B06 versus independent Python calculation
+CONSERVATIVE_HK_SE,PASS,0.697113896524516,0.697113896524516,"B05 max(conventional SE, raw HK SE)"
+META_CI_DF_K_MINUS_1,PASS,k=3;df=2;max_error=1.128057647292735e-10,k=3;df=2;max_error<=2e-10,B05 independent CI reconstruction; tolerance covers CSV decimal serialization
+REML_IMPLEMENTATION_CROSSCHECK,REVIEW,REVIEW;method=metafor_rma_uni_REML;difference=1.34880103796475e-05,PASS; difference<=1e-7,"B13 metafor comparison when available, otherwise independent base-R nlminb optimization"
+RULE_BASED_PRIMARY_CONCLUSION,PASS,DIRECTIONALLY_HETEROGENEOUS,DIRECTIONALLY_HETEROGENEOUS,B06 and B15
+HEALTHY_REFERENCE_COUNTS,PASS,pairs=14/14;refs=13,pairs=14/14;refs=13,B09
+FIGURE_ARTIFACTS,PASS,8/8 nonempty,8/8 nonempty,figures directory
+NAMED_INPUT_IMMUTABILITY,PASS,0,0,input_hashes_before_after.csv
+V2_SUBMISSION_IMMUTABILITY,PASS,0,0,protected_submission_tree_before_after.csv
+EXTERNAL_CENTER_DIRECTION_AUDIT,PASS,ALESSANDRIA=0.312;NOVARA=0.211,overall=0.287; no all-center reversal,B07 hospital-stratified sensitivity

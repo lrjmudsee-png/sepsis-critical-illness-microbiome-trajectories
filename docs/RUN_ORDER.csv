@@ -23,7 +23,7 @@
 80/80B-F,80_finalize_..._OFFLINE.R / 80B-80F,V2_20(_B-F),核心元数据定稿/精确映射
 81/81B/C/D,81_build_FINAL_frozen_master_and_audit.R / 81B/C/D,V2_21(_B/C/D),最终队列冻结(STEP81D终版)
 82/82B/C,82_audit_ASV_and_raw_sequence_readiness.R / 82B/C,V2_22(_B/C),ASV现表验证/路线冻结
-83A,83A_build_canonical_analysis_workspace.R,V2_23A_CANONICAL_WORKSPACE_BUILD,规范工作区(硬链接,STEP83A)
+83A,83A_build_canonical_analysis_workspace.R,V2_23A_CANONICAL_WORKSPACE_BUILD,"规范工作区(硬链接,STEP83A)"
 83B/C,83B_audit_read_quality_primer_...R / 83C_freeze_platform_...R,V2_23B/C,读长质量/平台参数冻结
 84A/A2,84A_run_5sample_DADA2_pilot.R / 84A2_retry_...R,V2_24A(_2),DADA2试点
 84B系列,84B_run_full_cohort_DADA2.R / 84B3 / 84B4A / 84B4B / 84B_resume_parallel_manager.ps1,V2_24B(_3/4A/4B),全量DADA2/样本级/批次去嵌合
@@ -53,3 +53,7 @@
 98G-G4,98G_PRJNA1125274_patient_reconciliation.py / 98G2-G4,V2_UPGRADE_20260909,STEP98G 患者级metadata reconciliation及主统计/孤立样本敏感性核验
 98H,98H_PRJNA1125274_final_governance_freeze.R,V2_UPGRADE_20260910_FINAL_FREEZE,STEP98H 最终统计治理冻结
 98I-I3,98I_remaining_validation_no_fastq.R / 98I2_CZM_5_2_diagnostics.R / 98I3_finalize_remaining_validation.R,V2_UPGRADE_20260910_REMAINING_VALIDATION,STEP98I 非目标特征/阈值敏感性、完整病例选择、假设检查与复现终审（不重跑FASTQ/DADA2）
+99A,analysis/99_DIRECTION_UPGRADE/RUN_A_FEASIBILITY.ps1,V2_UPGRADE_20260913_DIRECTION/A,方向升级可行性核验，历史Windows路径
+99B,analysis/99_DIRECTION_UPGRADE/RUN_B_DIRECTION.ps1,V2_UPGRADE_20260913_DIRECTION/B_DIRECTION_ANALYSIS_FINAL,冻结secondary balance与healthy reference及阴性结果
+99C,tools/REPRODUCE_SELECTED_STATISTICS.R,NEW_OUTPUT_DIRECTORY,参数化flat inputs统计子集，98项核对
+99D,tools/REPRODUCE_SPECIMEN_SENSITIVITY.R,NEW_SPECIMEN_OUTPUT_DIRECTORY,09-15 post-hoc取样一致性敏感性，不改原主结果

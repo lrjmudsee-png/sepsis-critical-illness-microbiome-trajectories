@@ -4,7 +4,7 @@ Code-availability repository for the study of longitudinal gut-microbiome ecolog
 
 ## Repository contents
 
-- `analysis/`: 342 source scripts (196 R, 139 PowerShell, and 7 Python) preserving the complete analysis history through the PRJNA1125274 validation and governance audit.
+- `analysis/`: Historical source scripts plus the secondary direction-analysis snapshot preserving the complete analysis history through the PRJNA1125274 validation and governance audit.
 - `docs/RUN_ORDER.csv`: ordered map from metadata recovery and sequence processing to statistics and manuscript assembly.
 - `docs/DATA_ACCESS.md`: public cohort accessions and local checkpoint definitions.
 - `docs/ENVIRONMENT.md`: verified software and package versions.
@@ -17,7 +17,7 @@ Raw sequencing reads, patient-level data, analysis workspaces, generated result 
 
 The study uses publicly available cohorts from NCBI SRA/BioProject, ENA, and NGDC-GSA:
 
-`PRJNA691455`, `PRJNA516701`, `PRJNA851469`, `PRJNA578267`, `PRJNA430161`, `PRJNA1166732`, `PRJNA978257`, `PRJNA1010969`, `PRJEB82425`, and `CRA002354`.
+`PRJNA691455`, `PRJNA516701`, `PRJNA851469`, `PRJNA578267`, `PRJNA430161`, `PRJNA1166732`, `PRJNA978257`, `PRJNA1010969`, `PRJNA1125274`, `PRJEB82425`, and `CRA002354`.
 
 Use the frozen sample/run inclusion manifests rather than downloading every run under each project accession. See `docs/DATA_ACCESS.md`.
 
@@ -76,3 +76,15 @@ The repository preserves superseded and repair scripts because they document how
 ## Code availability statement
 
 Analysis code, run order, environment information, public data accessions, and machine-readable terminal reproduction checks for this study are available at <https://github.com/lrjmudsee-png/sepsis-critical-illness-microbiome-trajectories>. Raw sequence data remain available from their originating public archives under the accessions listed above.
+
+
+## Secondary direction analysis and selected-statistics reproduction
+
+The `analysis/99_DIRECTION_UPGRADE/` snapshot contains the retrospective fixed family-balance analysis and healthy-reference audit from 13 September 2026. Both Holm-adjusted balance tests were inconclusive (p=1); no common pathobiome direction or host mechanism was established. Aggregate result and QC records are in `evidence/DIRECTION_ANALYSIS_20260913/`. Historical runners in that directory retain their original Windows/frozen-input paths.
+
+`tools/REPRODUCE_SELECTED_STATISTICS.R` accepts relative flat-file input/output directories and provides a smaller tested statistical route. Required processed inputs are staged locally for author review and are not redistributed in this public code-only repository. Thus the repository alone does not presently rerun every manuscript result. See `docs/PROCESSED_INPUT_AVAILABILITY.md`. The full raw-processing historical route remains separately documented and was not rerun in this update.
+
+
+## Final specimen governance and portable tests
+
+The 2026-09-15 post-hoc PRJNA516701 audit found mixed stool/rectal specimens and five of 15 pairs with a type change at an available visit. Aggregate same-specimen and cohort-exclusion sensitivity results, plus 98 selected-statistics checks and isolated ZIP-run checks, are in `evidence/FINALIZATION_20260915/`. The original primary sets/results were preserved; sensitivities are nominal, not replacement primary tests. `tools/REPRODUCE_SPECIMEN_SENSITIVITY.R` requires the documented metafor environment. See `docs/SELECTED_STATISTICS_REPRODUCTION.md`. No new GitHub release or Zenodo DOI was made; `CITATION.cff.template` is inactive pending confirmed creators/license.
