@@ -36,7 +36,7 @@ The sample/run-level inclusion set must be taken from the frozen metadata and ma
 
 ## Reviewer-facing recommendation
 
-Deposit the following in a repository with a permanent DOI before submission or revision:
+Subject to the target journal's policy and an appropriate rights/privacy review, prepare a versioned, persistently identifiable deposit of the following for reviewers and readers:
 
 1. Code snapshot and run order.
 2. Final frozen metadata and data dictionary, after checking that no restricted/private fields are present.
@@ -44,4 +44,4 @@ Deposit the following in a repository with a permanent DOI before submission or 
 4. Final figures/tables and SHA256 manifest.
 5. Accession-to-sample/run inclusion manifest.
 
-The repository name, release tag, URL and DOI remain author-supplied fields and must be inserted into the manuscript, cover letter and Data/Code Availability statement.
+The code repository is <https://github.com/lrjmudsee-png/sepsis-critical-illness-microbiome-trajectories>. Original software is MIT-licensed; this does not authorize redistribution or relicensing of the source datasets. See [licensing scope](LICENSING.md). A versioned release tag and archival DOI have not been assigned by this update, and Zenodo remains deferred. Insert only verified identifiers into manuscript and submission materials; do not use placeholder DOIs.

@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "Provisional software citation. Creator identities and archival release metadata await author confirmation."
 type: software
+license: MIT
 title: "Longitudinal gut microbiome trajectories in sepsis and critical illness"
 url: "https://github.com/lrjmudsee-png/sepsis-critical-illness-microbiome-trajectories"
 repository-code: "https://github.com/lrjmudsee-png/sepsis-critical-illness-microbiome-trajectories"

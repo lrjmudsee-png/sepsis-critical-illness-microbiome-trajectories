@@ -1,5 +1,13 @@
 # Release notes
 
+## Repository-only licensing update 2026-09-18
+
+- Added the standard MIT License for original software and associated documentation, with the maintainer-confirmed copyright holder Lu Rongji.
+- Documented the separate status of third-party software, public research data, processed inputs and research outputs; no data license was assigned.
+- Aligned README, code/data availability and citation-template notes. Removed overbroad claims of complete script recovery and clarified the prepared-input scope of prior reproduction checks.
+- Refreshed `CODE_FILE_MANIFEST.csv`; the original `MANIFEST_SHA256.csv` remains a historical snapshot.
+- No scientific scripts, input data or frozen statistical results were changed or rerun. The creator list remains unconfirmed; no active CFF citation, GitHub release or Zenodo publication was created.
+
 ## Repository-only finishing update 2026-09-15
 
 Added the 99 direction snapshot, two parameterized statistical entries, aggregate negative results, post-hoc specimen-consistency/cohort-exclusion sensitivity and isolated-directory test evidence. Original scientific inputs/primary results remain frozen. Processed patient inputs are local author-review only, software citation is an inactive template, and no GitHub release or Zenodo publication was created.

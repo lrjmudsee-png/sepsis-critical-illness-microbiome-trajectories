@@ -9,7 +9,7 @@ The first requires base R only. The second requires metafor (tested R4.4.0, meta
 
 On 2026-09-15 the ZIP was extracted under a different directory and both entries actually executed. All 98 numeric comparisons and 21 package/run checks passed. Three specimen-sensitivity CSVs matched their initial rerun exactly; only aggregate tables are public. The primary specimen audit is post-hoc: original frozen results remain unchanged, and all subset tests are nominal. These are isolated-directory tests on the same machine, not an independent-machine full raw-data validation.
 
-Release prerequisites: confirmed creators, chosen code/data licenses, approved processed-data redistribution/deposit, and final article citation. CITATION.cff.template is not a validated active CFF. Zenodo remains deferred.
+The original software is now MIT-licensed; see [licensing scope](LICENSING.md). Remaining archival preparation includes confirmed software creators and version metadata, plus a separately approved redistribution/licensing plan for any processed data to be deposited. An unpublished article does not yet need a final article DOI for software archiving. `CITATION.cff.template` is not a validated active CFF, and Zenodo remains deferred at the maintainer's request.
 
 ## Direction forest layout repair
 

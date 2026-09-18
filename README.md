@@ -2,9 +2,15 @@
 
 Code-availability repository for the study of longitudinal gut-microbiome ecological displacement and heterogeneous taxonomic trajectories across sepsis and critical-illness cohorts.
 
+## License and current availability
+
+Original code and associated software documentation are licensed under the [MIT License](LICENSE), copyright (c) 2026 Lu Rongji. This does not relicense public source data, research outputs or third-party software; see [licensing scope](docs/LICENSING.md).
+
+This is a code-and-audit repository, not yet a self-contained reproduction package for every manuscript result. Selected statistical runners require processed inputs currently held in a local author-review bundle. The public aggregate forest example can be rendered using the command in [selected-statistics reproduction](docs/SELECTED_STATISTICS_REPRODUCTION.md). Software citation metadata and Zenodo publication remain pending; no new archival release is made by this update.
+
 ## Repository contents
 
-- `analysis/`: Historical source scripts plus the secondary direction-analysis snapshot preserving the complete analysis history through the PRJNA1125274 validation and governance audit.
+- `analysis/`: Retained historical source scripts plus the secondary direction-analysis snapshot and PRJNA1125274 validation/governance scripts; not a guarantee that every historical script was recovered.
 - `docs/RUN_ORDER.csv`: ordered map from metadata recovery and sequence processing to statistics and manuscript assembly.
 - `docs/DATA_ACCESS.md`: public cohort accessions and local checkpoint definitions.
 - `docs/ENVIRONMENT.md`: verified software and package versions.
@@ -43,7 +49,7 @@ These downstream checks did not rerun FASTQ preprocessing or DADA2. The author-a
 
 ### 1. Frozen inputs to manuscript outputs
 
-This is the tested reviewer-facing route. It starts from frozen metadata and analysis objects and runs the following terminal chain:
+This route was tested with prepared frozen metadata and analysis objects; those full inputs are not supplied by cloning this repository alone. It runs the following terminal chain:
 
 1. trajectory ecology robustness;
 2. longitudinal evidence freeze;
@@ -65,9 +71,11 @@ powershell -ExecutionPolicy Bypass -File tools/V2_REPRODUCE_TERMINAL_CHAIN.ps1 -
 
 ### 2. Raw public reads to manuscript outputs
 
-The complete historical workflow is documented in `docs/RUN_ORDER.csv`. It includes metadata reconstruction, DADA2 processing, the VSEARCH 97% OTU route for CRA002354, SILVA 138.2 taxonomy assignment, analysis-object freezing, longitudinal models, robustness analyses, and manuscript integration.
+The retained historical workflow is mapped in `docs/RUN_ORDER.csv`. It includes metadata reconstruction, DADA2 processing, the VSEARCH 97% OTU route for CRA002354, SILVA 138.2 taxonomy assignment, analysis-object freezing, longitudinal models, robustness analyses, and manuscript integration.
 
 This full route has not been rerun after packaging and remains partly Windows-path-bound. Several historical scripts also install packages automatically. A future archival release should parameterize the remaining paths and lock the environment with `renv` or a container.
+
+Historical 96F2-F11 cosmetic figure scripts have not been recovered. The smaller public forest-rendering entry does not replace these missing scripts or reproduce all final figure styling.
 
 ## Important provenance note
 
@@ -76,6 +84,8 @@ The repository preserves superseded and repair scripts because they document how
 ## Code availability statement
 
 Analysis code, run order, environment information, public data accessions, and machine-readable terminal reproduction checks for this study are available at <https://github.com/lrjmudsee-png/sepsis-critical-illness-microbiome-trajectories>. Raw sequence data remain available from their originating public archives under the accessions listed above.
+
+See [CODE_AVAILABILITY.md](CODE_AVAILABILITY.md) for the full statement and its reproduction limits. `CODE_FILE_MANIFEST.csv` records the current distributed files, excluding itself and `.git/`; `MANIFEST_SHA256.csv` is a historical snapshot and is not the current manifest.
 
 
 ## Secondary direction analysis and selected-statistics reproduction
@@ -87,4 +97,4 @@ The `analysis/99_DIRECTION_UPGRADE/` snapshot contains the retrospective fixed f
 
 ## Final specimen governance and portable tests
 
-The 2026-09-15 post-hoc PRJNA516701 audit found mixed stool/rectal specimens and five of 15 pairs with a type change at an available visit. Aggregate same-specimen and cohort-exclusion sensitivity results, plus 98 selected-statistics checks and isolated ZIP-run checks, are in `evidence/FINALIZATION_20260915/`. The original primary sets/results were preserved; sensitivities are nominal, not replacement primary tests. `tools/REPRODUCE_SPECIMEN_SENSITIVITY.R` requires the documented metafor environment. See `docs/SELECTED_STATISTICS_REPRODUCTION.md`. No new GitHub release or Zenodo DOI was made; `CITATION.cff.template` is inactive pending confirmed creators/license.
+The 2026-09-15 post-hoc PRJNA516701 audit found mixed stool/rectal specimens and five of 15 pairs with a type change at an available visit. Aggregate same-specimen and cohort-exclusion sensitivity results, plus 98 selected-statistics checks and isolated ZIP-run checks, are in `evidence/FINALIZATION_20260915/`. The original primary sets/results were preserved; sensitivities are nominal, not replacement primary tests. `tools/REPRODUCE_SPECIMEN_SENSITIVITY.R` requires the documented metafor environment. See `docs/SELECTED_STATISTICS_REPRODUCTION.md`. No new GitHub release or Zenodo DOI was made; `CITATION.cff.template` is inactive pending confirmed software creators and citation metadata. MIT software licensing does not resolve the separate data-redistribution review.
