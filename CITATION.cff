@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+title: "Longitudinal gut-microbiome trajectories in sepsis and critical illness"
+authors:
+  - family-names: "Lu"
+    given-names: "Rongji"
+  - family-names: "Tian"
+    given-names: "Ying"
+  - family-names: "Long"
+    given-names: "Zhengjie"
+  - family-names: "Dai"
+    given-names: "Shi-xue"
+  - family-names: "Zhang"
+    given-names: "Kai-jun"
+repository-code: "https://github.com/lrjmudsee-png/sepsis-critical-illness-microbiome-trajectories"
+url: "https://github.com/lrjmudsee-png/sepsis-critical-illness-microbiome-trajectories"
+license: MIT
+abstract: "Analysis code, reproducibility documentation, and selected statistical runners for within-patient gut-microbiome ecological displacement and heterogeneous taxonomic trajectories across public sepsis and critical-illness cohorts."
