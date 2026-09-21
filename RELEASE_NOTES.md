@@ -1,5 +1,14 @@
 # Release notes
 
+## Submission-metadata update 2026-09-21
+
+- Activated `CITATION.cff` using the confirmed study author order.
+- Removed the provisional `CITATION.cff.template`.
+- Updated README, code/data availability and licensing notes so citation metadata are no longer described as unconfirmed.
+- No scientific analysis, frozen result, public-data interpretation or processing rule was changed.
+- A versioned GitHub release and Zenodo DOI remain pending until the submission snapshot and processed-data sharing plan are frozen.
+
+
 ## Repository-only licensing update 2026-09-18
 
 - Added the standard MIT License for original software and associated documentation, with the maintainer-confirmed copyright holder Lu Rongji.
