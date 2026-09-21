@@ -21,7 +21,7 @@ The copyright holder was supplied by the repository maintainer. This notice is n
 
 Please acknowledge the software repository and, when available, the final article and versioned software citation in scholarly work. This is an academic request, not an extra condition of MIT.
 
-`CITATION.cff.template` remains inactive until software creators and citation metadata are confirmed. Naming a copyright holder does not finalize a software creator list or manuscript authorship. Zenodo publication and a new GitHub release remain deferred; no DOI is asserted.
+`CITATION.cff` is now active and uses the confirmed study author order for software citation metadata. The copyright holder remains a separate legal concept from manuscript authorship. Zenodo publication and a new versioned GitHub release remain deferred; no DOI is asserted until an archival record is actually created.
 
 ## Checks performed on 18 September 2026
 
