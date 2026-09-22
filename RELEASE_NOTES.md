@@ -1,5 +1,13 @@
 # Release notes
 
+## Submission-ready metadata update 2026-09-22
+
+- Aligned `CITATION.cff` with the manuscript CRediT statement; Rongji Lu is listed as the software creator.
+- Documented that the selected-statistics frozen inputs are supplied with the manuscript as Supplementary Data 5 rather than duplicated in the code repository.
+- Updated README, code-availability, processed-input and licensing notes only; no scientific scripts, frozen results or inferential decisions were changed.
+- The manuscript remains pinned to a specific Git commit. A separate versioned GitHub release/Zenodo DOI is recommended for archival permanence but is not yet issued.
+
+
 ## Submission-metadata update 2026-09-21
 
 - Activated `CITATION.cff` using the confirmed study author order.
