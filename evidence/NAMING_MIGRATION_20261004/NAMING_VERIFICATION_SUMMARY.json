@@ -1,0 +1,21 @@
+{
+  "renamed_original_programs": 364,
+  "additional_naming_test_program": 1,
+  "r_syntax_programs": 204,
+  "powershell_syntax_programs": 142,
+  "python_syntax_programs": 19,
+  "unit_tests_passed": 9,
+  "selected_statistics_numeric_checks_passed": 98,
+  "selected_statistics_csvs_byte_identical": 6,
+  "specimen_sensitivity_executed": true,
+  "figure_exports_compared": 33,
+  "bitmap_exports_pixel_identical": 22,
+  "figure_pdf_text_identical": 11,
+  "legend_files_byte_identical": 2,
+  "supplementary_pdf_text_identical": true,
+  "historical_evidence_byte_preserved": true,
+  "data_output_names_and_scientific_formulas_preserved": true,
+  "full_raw_read_processing_rerun": false,
+  "original_archive_sha256": "fe2fcef3b688611cb1514b7a4b70db0386bae6efe75ace67ab918377950f6af2",
+  "all_checks_passed": true
+}

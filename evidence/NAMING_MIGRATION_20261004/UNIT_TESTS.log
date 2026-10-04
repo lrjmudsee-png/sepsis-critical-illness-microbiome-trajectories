@@ -1,0 +1,14 @@
+test_changed_input_refused_before_build (test_01_final_figure_runner.FigureRunnerSafetyTests.test_changed_input_refused_before_build) ... ok
+test_check_only_writes_nothing (test_01_final_figure_runner.FigureRunnerSafetyTests.test_check_only_writes_nothing) ... ok
+test_existing_output_preserved (test_01_final_figure_runner.FigureRunnerSafetyTests.test_existing_output_preserved) ... ok
+test_missing_input_refused_before_build (test_01_final_figure_runner.FigureRunnerSafetyTests.test_missing_input_refused_before_build) ... ok
+test_missing_rscript_refused (test_01_final_figure_runner.FigureRunnerSafetyTests.test_missing_rscript_refused) ... ok
+test_all_original_programs_have_unique_existing_targets (test_02_filename_inventory.NamingInventoryTests.test_all_original_programs_have_unique_existing_targets) ... ok
+test_current_code_does_not_reference_an_original_script_basename (test_02_filename_inventory.NamingInventoryTests.test_current_code_does_not_reference_an_original_script_basename) ... ok
+test_current_figure_runner_dependencies_exist (test_02_filename_inventory.NamingInventoryTests.test_current_figure_runner_dependencies_exist) ... ok
+test_every_distributed_program_uses_the_numbered_convention (test_02_filename_inventory.NamingInventoryTests.test_every_distributed_program_uses_the_numbered_convention) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.018s
+
+OK

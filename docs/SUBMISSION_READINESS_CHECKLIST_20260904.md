@@ -52,5 +52,5 @@
 - [ ] 在 Microsoft Excel 中打开两个最终工作簿，确认无“文件已修复”提示。
 - [ ] 检查正文、表格、图注和摘要中的全部样本量、效应量、p 值和 FDR 一致。
 - [ ] 按目标期刊要求确认字数、摘要结构、主图/主表数量、TIFF 色彩模式和文件命名。
-- [ ] 运行 `V2_97A_export_submission_bundle.ps1` 生成最终 ZIP 和 SHA256 清单。
+- [ ] 运行 `09_029_export_submission_bundle.ps1` 生成最终 ZIP 和 SHA256 清单。
 - [ ] 只上传 `01_投稿用_最终文件` 内的现行文件，不上传 `99_ORIGINAL_BACKUP_20260904` 或历史失败结果目录。

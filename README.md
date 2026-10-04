@@ -2,6 +2,8 @@
 
 Code-availability repository for the study of longitudinal gut-microbiome ecological displacement and heterogeneous taxonomic trajectories across sepsis and critical-illness cohorts.
 
+**Start with [START_HERE.md](START_HERE.md).** All 364 distributed programs and launchers now have descriptive numbered names. [The filename map](docs/CODE_FILENAME_MAP.csv) connects the old names to the new names; historical data/output labels remain unchanged. Numbered inventory order does not mean every historical alternative should be executed.
+
 ## License and current availability
 
 Original code and associated software documentation are licensed under the [MIT License](LICENSE), copyright (c) 2026 Lu Rongji. This does not relicense public source data, research outputs or third-party software; see [licensing scope](docs/LICENSING.md).
@@ -15,7 +17,7 @@ This is a code-and-audit repository, not yet a self-contained reproduction packa
 - `docs/DATA_ACCESS.md`: public cohort accessions and local checkpoint definitions.
 - `docs/ENVIRONMENT.md`: verified software and package versions.
 - `evidence/`: records from the independently isolated terminal reproduction run performed on 2026-09-04, plus the downstream PRJNA1125274 validation audit completed on 2026-09-11.
-- `tools/V2_REPRODUCE_TERMINAL_CHAIN.ps1`: runner for the 11-step frozen-input-to-manuscript terminal chain.
+- `tools/05_run_prepared_terminal_chain.ps1`: runner for the 11-step frozen-input-to-manuscript terminal chain.
 
 Raw sequencing reads, patient-level data, analysis workspaces, generated result trees, caches, and local directory links are not included in this repository.
 
@@ -66,7 +68,7 @@ This route was tested with prepared frozen metadata and analysis objects; those 
 The PowerShell runner expects a prepared Windows run root containing `_scripts/`, `data/`, `metadata/`, `processed_data/`, and the required frozen upstream `results/` directories.
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File tools/V2_REPRODUCE_TERMINAL_CHAIN.ps1 -RunRoot E:\path\to\prepared_run_root
+powershell -ExecutionPolicy Bypass -File tools/05_run_prepared_terminal_chain.ps1 -RunRoot E:\path\to\prepared_run_root
 ```
 
 ### 2. Raw public reads to manuscript outputs
@@ -79,11 +81,11 @@ Historical 96F2-F11 cosmetic figure scripts have not been recovered. For current
 
 ## Important provenance note
 
-The repository preserves superseded and repair scripts because they document how the final frozen workflow was reached. Use `docs/RUN_ORDER.csv`, the `FINAL`, `FIXED`, and freeze-labelled scripts, and the 11-step terminal chain above when identifying authoritative outputs.
+The repository preserves superseded and repair scripts because they document how the final frozen workflow was reached. Use `START_HERE.md`, the current `docs/RUN_ORDER.csv` catalogue and `docs/CODE_FILENAME_MAP.csv` when locating the renamed sources. Historical alternatives and superseded revisions are retained for provenance, not selected automatically as authoritative outputs.
 
 ## Code availability statement
 
-The 4 October 2026 code update adds the actual corrected submission figure programs, explicit input/output arguments, mandatory input checksum verification and output-overwrite protection. Run `tools/REPRODUCE_FINAL_FIGURES.py` to render all five main and six supplementary figures from the 24 frozen CSV inputs. This is a rendering route, not a new statistical analysis or raw-read reprocessing. See [final figure reproduction](docs/FINAL_FIGURE_PIPELINE.md) for input-access limits, environment versions and commands. No GitHub release or Zenodo DOI is created by this update.
+The 4 October 2026 code update adds the actual corrected submission figure programs, explicit input/output arguments, mandatory input checksum verification and output-overwrite protection. Run `tools/04_reproduce_final_figures.py` to render all five main and six supplementary figures from the 24 frozen CSV inputs. This is a rendering route, not a new statistical analysis or raw-read reprocessing. See [final figure reproduction](docs/FINAL_FIGURE_PIPELINE.md) for input-access limits, environment versions and commands. No GitHub release or Zenodo DOI is created by this update.
 
 Analysis code, run order, environment information, public data accessions, and machine-readable terminal reproduction checks for this study are available at <https://github.com/lrjmudsee-png/sepsis-critical-illness-microbiome-trajectories>. Raw sequence data remain available from their originating public archives under the accessions listed above.
 
@@ -92,11 +94,11 @@ See [CODE_AVAILABILITY.md](CODE_AVAILABILITY.md) for the full statement and its 
 
 ## Secondary direction analysis and selected-statistics reproduction
 
-The `analysis/99_DIRECTION_UPGRADE/` snapshot contains the retrospective fixed family-balance analysis and healthy-reference audit from 13 September 2026. Both Holm-adjusted balance tests were inconclusive (p=1); no common pathobiome direction or host mechanism was established. Aggregate result and QC records are in `evidence/DIRECTION_ANALYSIS_20260913/`. Historical runners in that directory retain their original Windows/frozen-input paths.
+The `analysis/direction_analysis/` snapshot contains the retrospective fixed family-balance analysis and healthy-reference audit from 13 September 2026. Both Holm-adjusted balance tests were inconclusive (p=1); no common pathobiome direction or host mechanism was established. Aggregate result and QC records are in `evidence/DIRECTION_ANALYSIS_20260913/`. Historical runners in that directory retain their original Windows/frozen-input paths.
 
-`tools/REPRODUCE_SELECTED_STATISTICS.R` accepts relative flat-file input/output directories and provides a smaller tested statistical route. Required processed inputs are supplied with the manuscript as Supplementary Data 5 and are not duplicated in this public code-only repository. Thus the repository alone does not presently rerun every manuscript result. See `docs/PROCESSED_INPUT_AVAILABILITY.md`. The full raw-processing historical route remains separately documented and was not rerun in this update.
+`tools/01_reproduce_selected_statistics.R` accepts relative flat-file input/output directories and provides a smaller tested statistical route. Required processed inputs are supplied with the manuscript as Supplementary Data 5 and are not duplicated in this public code-only repository. Thus the repository alone does not presently rerun every manuscript result. See `docs/PROCESSED_INPUT_AVAILABILITY.md`. The full raw-processing historical route remains separately documented and was not rerun in this update.
 
 
 ## Final specimen governance and portable tests
 
-The 2026-09-15 post-hoc PRJNA516701 audit found mixed stool/rectal specimens and five of 15 pairs with a type change at an available visit. Aggregate same-specimen and cohort-exclusion sensitivity results, plus 98 selected-statistics checks and isolated ZIP-run checks, are in `evidence/FINALIZATION_20260915/`. The original primary sets/results were preserved; sensitivities are nominal, not replacement primary tests. `tools/REPRODUCE_SPECIMEN_SENSITIVITY.R` requires the documented metafor environment. See `docs/SELECTED_STATISTICS_REPRODUCTION.md`. The repository now includes an active `CITATION.cff` aligned with the manuscript CRediT statement, with Rongji Lu listed as the software creator. A versioned GitHub release and Zenodo DOI remain pending and should be created only after the submission snapshot is frozen. MIT software licensing does not resolve the separate data-redistribution review.
+The 2026-09-15 post-hoc PRJNA516701 audit found mixed stool/rectal specimens and five of 15 pairs with a type change at an available visit. Aggregate same-specimen and cohort-exclusion sensitivity results, plus 98 selected-statistics checks and isolated ZIP-run checks, are in `evidence/FINALIZATION_20260915/`. The original primary sets/results were preserved; sensitivities are nominal, not replacement primary tests. `tools/02_reproduce_specimen_sensitivity.R` requires the documented metafor environment. See `docs/SELECTED_STATISTICS_REPRODUCTION.md`. The repository now includes an active `CITATION.cff` aligned with the manuscript CRediT statement, with Rongji Lu listed as the software creator. A versioned GitHub release and Zenodo DOI remain pending and should be created only after the submission snapshot is frozen. MIT software licensing does not resolve the separate data-redistribution review.

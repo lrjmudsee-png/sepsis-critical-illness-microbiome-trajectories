@@ -1,0 +1,2186 @@
+[
+  {
+    "old_path": "analysis/60_build_v2_project_inventory.ps1",
+    "new_path": "analysis/01_001_build_project_inventory.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/61_profile_v2_metadata.py",
+    "new_path": "analysis/01_002_profile_metadata.py",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/61_profile_v2_metadata_V2.py",
+    "new_path": "analysis/01_003_profile_metadata_revision_02.py",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/63_fetch_v2_public_metadata.py",
+    "new_path": "analysis/01_004_fetch_public_metadata.py",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/64_fetch_missing_public_resources.py",
+    "new_path": "analysis/01_005_fetch_missing_public_resources.py",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/65_audit_v2_metadata_coverage.py",
+    "new_path": "analysis/01_006_audit_metadata_coverage.py",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/65_audit_v2_metadata_coverage.R",
+    "new_path": "analysis/01_007_audit_metadata_coverage.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/66_build_sample_patient_time_map.R",
+    "new_path": "analysis/01_008_build_sample_patient_time_map.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/67_repair_and_adjudicate_v2_mapping.R",
+    "new_path": "analysis/01_009_repair_and_adjudicate_mapping.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/68_resolve_remaining_public_metadata.R",
+    "new_path": "analysis/01_010_resolve_remaining_public_metadata.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/69_final_public_metadata_rescue.R",
+    "new_path": "analysis/01_011_final_public_metadata_rescue.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/70_finalize_PRJEB82425_PRJEB67798_mapping.R",
+    "new_path": "analysis/01_012_finalize_prjeb82425_prjeb67798_mapping.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/70B_finish_exact_metadata_mapping.R",
+    "new_path": "analysis/01_013_finish_exact_metadata_mapping.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/71_classify_PRJEB82425_body_site_from_FASTQ.R",
+    "new_path": "analysis/01_014_classify_prjeb82425_body_site_from_fastq.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/71B_finalize_PRJEB82425_body_site.R",
+    "new_path": "analysis/01_015_finalize_prjeb82425_body_site.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/72_build_v2_master_metadata.R",
+    "new_path": "analysis/01_016_build_master_metadata.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/73_merge_legacy_into_v2_full_master.R",
+    "new_path": "analysis/01_017_merge_legacy_into_full_master.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/74_audit_v2_longitudinal_eligibility.R",
+    "new_path": "analysis/01_018_audit_longitudinal_eligibility.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/75_triage_missing_v2_projects.R",
+    "new_path": "analysis/01_019_triage_missing_projects.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/76_rescue_high_value_missing_cohorts.R",
+    "new_path": "analysis/01_020_rescue_high_value_missing_cohorts.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/76B_continue_high_value_metadata_rescue.R",
+    "new_path": "analysis/01_021_continue_high_value_metadata_rescue.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/76C_continue_high_value_metadata_rescue_FIXED.R",
+    "new_path": "analysis/01_022_continue_high_value_metadata_rescue_corrected.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/76D_continue_high_value_metadata_rescue_FIXED.R",
+    "new_path": "analysis/01_023_continue_high_value_metadata_rescue_corrected_revision_02.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/77_finalize_68229_adjudicate_1125274.R",
+    "new_path": "analysis/01_024_finalize_68229_adjudicate_1125274.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/78A2_robust_rescue_PRJNA851469_CRA002354.R",
+    "new_path": "analysis/01_025_robust_rescue_prjna851469_cra002354.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/78A_rescue_PRJNA851469_CRA002354.R",
+    "new_path": "analysis/01_026_rescue_prjna851469_cra002354.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/79_parse_PRJNA851469_CRA002354_metadata_OFFLINE.R",
+    "new_path": "analysis/01_027_parse_prjna851469_cra002354_metadata_offline.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/80_finalize_CRA002354_PRJNA851469_metadata_OFFLINE.R",
+    "new_path": "analysis/01_028_finalize_cra002354_prjna851469_metadata_offline.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/80B_finalize_core_metadata_ROBUST_OFFLINE.R",
+    "new_path": "analysis/01_029_finalize_core_metadata_robust_offline.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/80C_fix_CRA_clinical_and_map_runs_OFFLINE.R",
+    "new_path": "analysis/01_030_fix_cra_clinical_and_map_runs_offline.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/80D_finalize_run_mapping_OFFLINE.R",
+    "new_path": "analysis/01_031_finalize_run_mapping_offline.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/80E_strict_final_technical_mapping_OFFLINE.R",
+    "new_path": "analysis/01_032_strict_final_technical_mapping_offline.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/80F_exact_final_mapping_OFFLINE.R",
+    "new_path": "analysis/01_033_exact_final_mapping_offline.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/81_build_FINAL_frozen_master_and_audit.R",
+    "new_path": "analysis/01_034_build_final_frozen_master_and_audit.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/81B_build_FINAL_frozen_master_ROBUST.R",
+    "new_path": "analysis/01_035_build_final_frozen_master_robust.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/81C_correct_FINAL_cohort_freeze.R",
+    "new_path": "analysis/01_036_correct_final_cohort_freeze.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/81D_repair_CRA_clinical_and_refreeze.R",
+    "new_path": "analysis/01_037_repair_cra_clinical_and_refreeze.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/82_audit_ASV_and_raw_sequence_readiness.R",
+    "new_path": "analysis/02_001_audit_asv_and_raw_sequence_readiness.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/82B_validate_reusable_ASV_and_processing_routes.R",
+    "new_path": "analysis/02_002_validate_reusable_asv_and_processing_routes.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/82C_freeze_sequence_processing_routes.R",
+    "new_path": "analysis/02_003_freeze_sequence_processing_routes.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/83A_build_canonical_analysis_workspace.R",
+    "new_path": "analysis/02_004_build_canonical_analysis_workspace.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/83B_audit_read_quality_primer_from_canonical_workspace.R",
+    "new_path": "analysis/02_005_audit_read_quality_primer_from_canonical_workspace.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/83C_freeze_platform_aware_DADA2_pilot_parameters.R",
+    "new_path": "analysis/02_006_freeze_platform_aware_dada2_pilot_parameters.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/84A2_retry_PRJNA1166732_merge_overlap_diagnostic.R",
+    "new_path": "analysis/02_007_retry_prjna1166732_merge_overlap_diagnostic.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/84A_run_5sample_DADA2_pilot.R",
+    "new_path": "analysis/02_008_run_5sample_dada2_pilot.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/84B3_PRJNA578267_samplewise_resume.R",
+    "new_path": "analysis/02_009_prjna578267_samplewise_resume.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/84B4A_PRJNA578267_build_prechim_batched.R",
+    "new_path": "analysis/02_010_prjna578267_build_prechim_batched.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/84B4B_PRJNA578267_remove_chimera_minParent8.R",
+    "new_path": "analysis/02_011_prjna578267_remove_chimera_minparent8.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/84B_resume_parallel_manager.ps1",
+    "new_path": "analysis/02_012_resume_parallel_manager.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/84B_run_full_cohort_DADA2.R",
+    "new_path": "analysis/02_013_run_full_cohort_dada2.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/84C_finalize_PRJNA516701_and_close_paired_DADA2_batch.R",
+    "new_path": "analysis/02_014_finalize_prjna516701_and_close_paired_dada2_batch.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/85A2_assign_SILVA1382_taxonomy_FIXED_MD5.R",
+    "new_path": "analysis/02_015_assign_silva1382_taxonomy_corrected_md5.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/85A3_assign_SILVA1382_taxonomy_ZENODO_FIXED.R",
+    "new_path": "analysis/02_016_assign_silva1382_taxonomy_zenodo_corrected.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/85A_assign_SILVA1382_taxonomy_to_selected_ASVs.R",
+    "new_path": "analysis/02_017_assign_silva1382_taxonomy_to_selected_asvs.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/85B2_taxonomy_QC_and_depth_audit_FIXED.R",
+    "new_path": "analysis/02_018_taxonomy_qc_and_depth_audit_corrected.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/85B_taxonomy_QC_and_depth_audit.R",
+    "new_path": "analysis/02_019_taxonomy_qc_and_depth_audit.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/85C_86A_freeze_taxonomy_filter_and_audit_longitudinal_depth.R",
+    "new_path": "analysis/02_020_freeze_taxonomy_filter_and_audit_longitudinal_depth.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/86B_correct_depth_audit_and_freeze_min2000.R",
+    "new_path": "analysis/02_021_correct_depth_audit_and_freeze_min2000.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/87A2_rebuild_full_analysis_metadata_and_replicate_audit_FIXED.R",
+    "new_path": "analysis/03_001_rebuild_full_analysis_metadata_and_replicate_audit_corrected.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/87A_rebuild_full_analysis_metadata_and_replicate_audit.R",
+    "new_path": "analysis/03_002_rebuild_full_analysis_metadata_and_replicate_audit.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/87B_freeze_replicate_rule_and_build_analysis_objects.R",
+    "new_path": "analysis/03_003_freeze_replicate_rule_and_build_analysis_objects.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/88A2_longitudinal_diversity_and_displacement_FIXED.R",
+    "new_path": "analysis/03_004_longitudinal_diversity_and_displacement_corrected.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/88A_longitudinal_diversity_and_displacement.R",
+    "new_path": "analysis/03_005_longitudinal_diversity_and_displacement.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/88B_anchor_robustness_and_paired_contrasts.R",
+    "new_path": "analysis/03_006_anchor_robustness_and_paired_contrasts.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/89A2_taxonomic_paired_trajectory_screen_FIXED.R",
+    "new_path": "analysis/03_007_taxonomic_paired_trajectory_screen_corrected.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/89A_taxonomic_paired_trajectory_screen.R",
+    "new_path": "analysis/03_008_taxonomic_paired_trajectory_screen.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/89B_taxonomic_robustness_and_provenance.R",
+    "new_path": "analysis/03_009_taxonomic_robustness_and_provenance.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/90A_ecological_robustness_and_shared_taxonomy.R",
+    "new_path": "analysis/03_010_ecological_robustness_and_shared_taxonomy.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/90B_corrected_coherence_inference.R",
+    "new_path": "analysis/03_011_corrected_coherence_inference.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/91A_infection_source_feasibility_audit.R",
+    "new_path": "analysis/04_001_infection_source_feasibility_audit.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/91B2_infection_source_freeze_and_analysis_FIXED.R",
+    "new_path": "analysis/04_002_infection_source_freeze_and_analysis_corrected.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/91B3_infection_source_freeze_and_analysis_FIELD_COLLISION_FIXED.R",
+    "new_path": "analysis/04_003_infection_source_freeze_and_analysis_field_collision_corrected.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/91B4_infection_source_freeze_and_analysis_ATTRITION_FIXED.R",
+    "new_path": "analysis/04_004_infection_source_freeze_and_analysis_attrition_corrected.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/91B_infection_source_freeze_and_analysis.R",
+    "new_path": "analysis/04_005_infection_source_freeze_and_analysis.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_36_metadata_enhancement_audit.R",
+    "new_path": "analysis/04_006_metadata_enhancement_audit.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_36B_clinical_metadata_deep_audit.R",
+    "new_path": "analysis/04_007_clinical_metadata_deep_audit.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_36C_clinical_variable_characterization.R",
+    "new_path": "analysis/04_008_clinical_variable_characterization.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_36D_value_level_clinical_feasibility.R",
+    "new_path": "analysis/04_009_value_level_clinical_feasibility.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_36E2_raw_clinical_metadata_recovery_audit_fixed.R",
+    "new_path": "analysis/04_010_raw_clinical_metadata_recovery_audit_corrected.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_36E_raw_clinical_metadata_recovery_audit.R",
+    "new_path": "analysis/04_011_raw_clinical_metadata_recovery_audit.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_36F_PRJNA851469_clinical_recovery_linkage.R",
+    "new_path": "analysis/04_012_prjna851469_clinical_recovery_linkage.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_36G2_PRJNA851469_day3_clinical_outcome_models_FIXED.R",
+    "new_path": "analysis/04_013_prjna851469_day3_clinical_outcome_models_corrected.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_36G_PRJNA851469_day3_clinical_outcome_models.R",
+    "new_path": "analysis/04_014_prjna851469_day3_clinical_outcome_models.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_36H_cross_cohort_taxonomic_reproducibility_audit.R",
+    "new_path": "analysis/04_015_cross_cohort_taxonomic_reproducibility_audit.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_36I2_comparison_selection_fix.R",
+    "new_path": "analysis/04_016_comparison_selection_fix.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_36I3_cross_cohort_taxonomic_reproducibility_FINAL.R",
+    "new_path": "analysis/04_017_cross_cohort_taxonomic_reproducibility_final.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_36I_cross_cohort_taxonomic_reproducibility.R",
+    "new_path": "analysis/04_018_cross_cohort_taxonomic_reproducibility.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_36J_microbiome_enhancement_evidence_freeze.R",
+    "new_path": "analysis/04_019_microbiome_enhancement_evidence_freeze.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/92A_EII_feasibility_audit.R",
+    "new_path": "analysis/05_001_eii_feasibility_audit.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/92B2_EII_baseline_harmonization_fixed.R",
+    "new_path": "analysis/05_002_eii_baseline_harmonization_corrected.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/92B_EII_construction.R",
+    "new_path": "analysis/05_003_eii_construction.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/92C_EII_cross_cohort_validation.R",
+    "new_path": "analysis/05_004_eii_cross_cohort_validation.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/92D_EII_stability_comparison.R",
+    "new_path": "analysis/05_005_eii_stability_comparison.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93A_taxonomic_heterogeneity_vs_EII.R",
+    "new_path": "analysis/05_006_taxonomic_heterogeneity_vs_eii.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93B_taxonomic_trajectory_heterogeneity.R",
+    "new_path": "analysis/05_007_taxonomic_trajectory_heterogeneity.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93C_taxonomic_divergence_vs_EII.R",
+    "new_path": "analysis/05_008_taxonomic_divergence_vs_eii.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93D_taxonomic_heterogeneity_index.R",
+    "new_path": "analysis/05_009_taxonomic_heterogeneity_index.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93E_taxonomic_trajectory_divergence.R",
+    "new_path": "analysis/05_010_taxonomic_trajectory_divergence.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93F_taxonomic_heterogeneity_calculation.R",
+    "new_path": "analysis/05_011_taxonomic_heterogeneity_calculation.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93G_taxonomic_trajectory_divergence.R",
+    "new_path": "analysis/05_012_taxonomic_trajectory_divergence_revision_02.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93H_taxonomic_trajectory_distance.R",
+    "new_path": "analysis/05_013_taxonomic_trajectory_distance.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93I_taxonomic_matrix_selection_fix.R",
+    "new_path": "analysis/05_014_taxonomic_matrix_selection_fix.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93J_raw_abundance_matrix_discovery.R",
+    "new_path": "analysis/05_015_raw_abundance_matrix_discovery.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93K_genus_matrix_validation.R",
+    "new_path": "analysis/05_016_genus_matrix_validation.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93L_taxonomic_trajectory_reconstruction.R",
+    "new_path": "analysis/05_017_taxonomic_trajectory_reconstruction.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93M_download_metadata_from_NCBI.R",
+    "new_path": "analysis/05_018_download_metadata_from_ncbi.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93N2_metadata_autodiscovery.R",
+    "new_path": "analysis/05_019_metadata_autodiscovery.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93N3_metadata_strict_mapping.R",
+    "new_path": "analysis/05_020_metadata_strict_mapping.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93N4_patient_timepoint_reconstruction.R",
+    "new_path": "analysis/05_021_patient_timepoint_reconstruction.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93N_sample_mapping_build.R",
+    "new_path": "analysis/05_022_sample_mapping_build.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93O_taxonomic_abundance_metadata_integration.R",
+    "new_path": "analysis/05_023_taxonomic_abundance_metadata_integration.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93P_longitudinal_taxonomic_trajectory_analysis.R",
+    "new_path": "analysis/05_024_longitudinal_taxonomic_trajectory_analysis.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93Q_trajectory_patient_id_reconstruction_fix.R",
+    "new_path": "analysis/05_025_trajectory_patient_id_reconstruction_fix.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93R2_trajectory_distance_final_fix.R",
+    "new_path": "analysis/05_026_trajectory_distance_final_fix.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93R_fix_na_trajectory.R",
+    "new_path": "analysis/05_027_fix_na_trajectory.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93R_taxonomic_trajectory_divergence_analysis.R",
+    "new_path": "analysis/05_028_taxonomic_trajectory_divergence_analysis.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93S2_trajectory_distance_method_fix.R",
+    "new_path": "analysis/05_029_trajectory_distance_method_fix.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93S_signed_trajectory_clustering.R",
+    "new_path": "analysis/05_030_signed_trajectory_clustering.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93T2_EII_file_selection_fix.R",
+    "new_path": "analysis/05_031_eii_file_selection_fix.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93T3_EII_real_table_identification.R",
+    "new_path": "analysis/05_032_eii_real_table_identification.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93T4_EII_xlsx_patient_search.R",
+    "new_path": "analysis/05_033_eii_xlsx_patient_search.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93T5_EII_all_format_discovery.R",
+    "new_path": "analysis/05_034_eii_all_format_discovery.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93T6_EII_code_history_search.R",
+    "new_path": "analysis/05_035_eii_code_history_search.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93T6_fix_eii_trajectory_integration.R",
+    "new_path": "analysis/05_036_fix_eii_trajectory_integration.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93T7_patient_ID_mapping_audit.R",
+    "new_path": "analysis/05_037_patient_id_mapping_audit.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93T8_run_patient_mapping_reconstruction.R",
+    "new_path": "analysis/05_038_run_patient_mapping_reconstruction.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93T9_debug_path_check.R",
+    "new_path": "analysis/05_039_debug_path_check.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93T9_fix_always_output.R",
+    "new_path": "analysis/05_040_fix_always_output.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93T9_run_to_patient_mapping.R",
+    "new_path": "analysis/05_041_run_to_patient_mapping.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93T10_EII_trajectory_final_integration.R",
+    "new_path": "analysis/05_042_eii_trajectory_final_integration.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93T10B_forced_run_bridge.R",
+    "new_path": "analysis/05_043_forced_run_bridge.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93T_EII_trajectory_integration.R",
+    "new_path": "analysis/05_044_eii_trajectory_integration.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93T_fix_patient_id_type.R",
+    "new_path": "analysis/05_045_fix_patient_id_type.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93U_trajectory_ecology_robustness.R",
+    "new_path": "analysis/05_046_trajectory_ecology_robustness.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93V2_cross_cohort_trajectory_polarity_robust.R",
+    "new_path": "analysis/05_047_cross_cohort_trajectory_polarity_robust.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93V3_step88B_estimand_reconciliation.R",
+    "new_path": "analysis/05_048_step88b_estimand_reconciliation.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93V_cross_cohort_trajectory_polarity.R",
+    "new_path": "analysis/05_049_cross_cohort_trajectory_polarity.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93W_longitudinal_evidence_freeze.R",
+    "new_path": "analysis/05_050_longitudinal_evidence_freeze.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/94A2_infection_source_excel_semantic_audit.R",
+    "new_path": "analysis/06_001_infection_source_excel_semantic_audit.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/94A3_master_infection_source_project_resolution.R",
+    "new_path": "analysis/06_002_master_infection_source_project_resolution.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/94A4_CRA002354_rescue_and_readiness_audit.R",
+    "new_path": "analysis/06_003_cra002354_rescue_and_readiness_audit.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/94A_infection_source_feasibility_audit.R",
+    "new_path": "analysis/06_004_infection_source_feasibility_audit.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/94B1_CRA002354_fasta_otu97_silva1382.R",
+    "new_path": "analysis/06_005_cra002354_fasta_otu97_silva1382.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/94B1A_CRA002354_ambiguity_resolution_otu97.R",
+    "new_path": "analysis/06_006_cra002354_ambiguity_resolution_otu97.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/94B1B_CRA002354_fasta_write_fix_and_otu97_resume.R",
+    "new_path": "analysis/06_007_cra002354_fasta_write_fix_and_otu97_resume.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/94B1D_CRA002354_nonchimeric_otu_table_and_rarefaction_fix.R",
+    "new_path": "analysis/06_008_cra002354_nonchimeric_otu_table_and_rarefaction_fix.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/94B1E_CRA002354_taxonomy_id_repair.R",
+    "new_path": "analysis/06_009_cra002354_taxonomy_id_repair.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/94B2_CRA002354_formal_source_longitudinal_analysis.R",
+    "new_path": "analysis/06_010_cra002354_formal_source_longitudinal_analysis.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/94B2A2_CRA002354_source_model_specification_freeze.R",
+    "new_path": "analysis/06_011_94b2a2_cra002354_source_model_specification_freeze.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/94B2A3_source_model_spec_qc_fix.R",
+    "new_path": "analysis/06_012_94b2a3_source_model_spec_qc_fix.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/94B2A_CRA002354_source_model_design_prep.R",
+    "new_path": "analysis/06_013_cra002354_source_model_design_prep.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/94B2B_CRA002354_corrected_formal_source_longitudinal_analysis.R",
+    "new_path": "analysis/06_014_cra002354_corrected_formal_source_longitudinal_analysis.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/94B2C_CRA002354_final_source_longitudinal_analysis_and_freeze.R",
+    "new_path": "analysis/06_015_cra002354_final_source_longitudinal_analysis_and_freeze.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/94B2D_infection_source_evidence_freeze.R",
+    "new_path": "analysis/06_016_infection_source_evidence_freeze.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/94B3A_CRA002354_exploratory_genus_source_analysis.R",
+    "new_path": "analysis/06_017_cra002354_exploratory_genus_source_analysis.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/94B3B_CRA002354_genus_coverage_robustness.R",
+    "new_path": "analysis/06_018_cra002354_genus_coverage_robustness.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/94B3C_CRA002354_genus_evidence_freeze.R",
+    "new_path": "analysis/06_019_cra002354_genus_evidence_freeze.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93X2_PRJNA1010969_complete_group_validation.R",
+    "new_path": "analysis/07_001_prjna1010969_complete_group_validation.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93X3_external_specificity_robustness.R",
+    "new_path": "analysis/07_002_external_specificity_robustness.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93X4_external_validation_evidence_freeze.R",
+    "new_path": "analysis/07_003_external_validation_evidence_freeze.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/93X_PRJNA1010969_external_state_validation.R",
+    "new_path": "analysis/07_004_prjna1010969_external_state_validation.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/98A_aitchison_longitudinal_robustness.R",
+    "new_path": "analysis/07_005_aitchison_longitudinal_robustness.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/98B_longitudinal_random_effects_meta_analysis.R",
+    "new_path": "analysis/07_006_longitudinal_random_effects_meta_analysis.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/98C_PRJNA1125274_metadata_and_run_freeze.R",
+    "new_path": "analysis/07_007_prjna1125274_metadata_and_run_freeze.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/98D2_PRJNA1125274_sequence_processing_SINGLE_END.R",
+    "new_path": "analysis/07_008_prjna1125274_sequence_processing_single_end.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/98D3_backfill_taxonomy.R",
+    "new_path": "analysis/07_009_backfill_taxonomy.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/98D_PRJNA1125274_sequence_processing.R",
+    "new_path": "analysis/07_010_prjna1125274_sequence_processing.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/98E_PRJNA1125274_external_validation.R",
+    "new_path": "analysis/07_011_prjna1125274_external_validation.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/98F_V2_upgrade_evidence_freeze.R",
+    "new_path": "analysis/07_012_upgrade_evidence_freeze.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/98G2_PRJNA1125274_verify_primary_statistics.R",
+    "new_path": "analysis/07_013_prjna1125274_verify_primary_statistics.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/98G3_PRJNA1125274_orphan_exclusion_sensitivity.R",
+    "new_path": "analysis/07_014_prjna1125274_orphan_exclusion_sensitivity.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/98G4_PRJNA1125274_write_reconciliation_report.py",
+    "new_path": "analysis/07_015_prjna1125274_write_reconciliation_report.py",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/98G_PRJNA1125274_patient_reconciliation.py",
+    "new_path": "analysis/07_016_prjna1125274_patient_reconciliation.py",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/98H_PRJNA1125274_final_governance_freeze.R",
+    "new_path": "analysis/07_017_prjna1125274_final_governance_freeze.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/98I2_CZM_5_2_diagnostics.R",
+    "new_path": "analysis/07_018_czm_5_2_diagnostics.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/98I3_finalize_remaining_validation.R",
+    "new_path": "analysis/07_019_finalize_remaining_validation.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/98I_remaining_validation_no_fastq.R",
+    "new_path": "analysis/07_020_remaining_validation_no_fastq.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/95A2_global_evidence_synthesis_source_anchor_fix.R",
+    "new_path": "analysis/09_001_global_evidence_synthesis_source_anchor_fix.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/95A_global_evidence_synthesis_and_manuscript_map.R",
+    "new_path": "analysis/09_002_global_evidence_synthesis_and_manuscript_map.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/95B_manuscript_source_pack_assembly.R",
+    "new_path": "analysis/09_003_manuscript_source_pack_assembly.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/95C_manuscript_architecture_figure1_and_main_tables.R",
+    "new_path": "analysis/09_004_manuscript_architecture_figure1_and_main_tables.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/95D2_publication_figures_sourcepack_only.R",
+    "new_path": "analysis/09_005_publication_figures_sourcepack_only.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/95D3_final_figure_formatting_fix.R",
+    "new_path": "analysis/09_006_final_figure_formatting_fix.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/95D_publication_ready_figures_and_table_placement.R",
+    "new_path": "analysis/09_007_publication_ready_figures_and_table_placement.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/95E2_table1_analysis_population_fix_and_results_v2.R",
+    "new_path": "analysis/09_008_table1_analysis_population_fix_and_results.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/95E_table1_and_results_draft.R",
+    "new_path": "analysis/09_009_table1_and_results_draft.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/95F2_results_and_table1_final_freeze.R",
+    "new_path": "analysis/09_010_results_and_table1_final_freeze.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/95F3_results_and_table1_final_freeze_sentence_audit.R",
+    "new_path": "analysis/09_011_results_and_table1_final_freeze_sentence_audit.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/95F_results_polish_and_table1_manuscript_freeze.R",
+    "new_path": "analysis/09_012_results_polish_and_table1_manuscript_freeze.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/95G_supplementary_tables_and_discussion_v1.R",
+    "new_path": "analysis/09_013_supplementary_tables_and_discussion_v1.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_96B_results_integration.R",
+    "new_path": "analysis/09_014_results_integration.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_96C_discussion_integration.R",
+    "new_path": "analysis/09_015_discussion_integration.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_96D2_methods_source_verification_audit.R",
+    "new_path": "analysis/09_016_methods_source_verification_audit.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_96D3_methods_manuscriptization_verified.R",
+    "new_path": "analysis/09_017_methods_manuscriptization_verified.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_96D4_methods_final_manuscript_polish.R",
+    "new_path": "analysis/09_018_methods_final_manuscript_polish.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_96D_methods_manuscriptization.R",
+    "new_path": "analysis/09_019_methods_manuscriptization.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_96E_figure3D_cross_cohort_reproducibility_final.R",
+    "new_path": "analysis/09_020_figure3d_cross_cohort_reproducibility_final.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_96F_manuscript_core_assembly_and_gap_audit.R",
+    "new_path": "analysis/09_021_manuscript_core_assembly_and_gap_audit.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_96G_discussion_reference_resolution.R",
+    "new_path": "analysis/09_022_discussion_reference_resolution.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_96H_introduction_integration.R",
+    "new_path": "analysis/09_023_introduction_integration.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_96I2_reference_format_polish.R",
+    "new_path": "analysis/09_024_reference_format_polish.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_96I_final_reference_numbering.R",
+    "new_path": "analysis/09_025_final_reference_numbering.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_96K2_final_manuscript_text_and_audit_FIXED.R",
+    "new_path": "analysis/09_026_final_manuscript_text_and_audit_corrected.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_96K3_final_manuscript_text_and_audit_FIXED2.R",
+    "new_path": "analysis/09_027_final_manuscript_text_and_audit_corrected2.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_96K_final_manuscript_text_and_audit.R",
+    "new_path": "analysis/09_028_final_manuscript_text_and_audit.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/V2_97A_export_submission_bundle.ps1",
+    "new_path": "analysis/09_029_export_submission_bundle.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/CHECK_AND_RERUN_STEP94B3A.ps1",
+    "new_path": "analysis/06_020_check_and_rerun_exploratory_genus_source_utility.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/CHECK_RERUN_PACKAGE_STEP36C.ps1",
+    "new_path": "analysis/04_020_check_clinical_characterization_package_utility.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/CHECK_STEP94B1B_STATUS.ps1",
+    "new_path": "analysis/06_021_check_fasta_otu_resume_status_utility.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/GET_VSEARCH_2.31.0.ps1",
+    "new_path": "analysis/11_001_get_vsearch_2_31_0_utility.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/RUN_STEP87B.ps1",
+    "new_path": "analysis/03_003_freeze_replicate_rule_and_build_analysis_objects_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP88A2_FIXED.ps1",
+    "new_path": "analysis/03_004_longitudinal_diversity_and_displacement_corrected_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP88A.ps1",
+    "new_path": "analysis/03_005_longitudinal_diversity_and_displacement_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP88B.ps1",
+    "new_path": "analysis/03_006_anchor_robustness_and_paired_contrasts_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP89A2_FIXED.ps1",
+    "new_path": "analysis/03_007_taxonomic_paired_trajectory_screen_corrected_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP89A.ps1",
+    "new_path": "analysis/03_008_taxonomic_paired_trajectory_screen_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP89B.ps1",
+    "new_path": "analysis/03_009_taxonomic_robustness_and_provenance_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP90A.ps1",
+    "new_path": "analysis/03_010_ecological_robustness_and_shared_taxonomy_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP90B.ps1",
+    "new_path": "analysis/03_011_corrected_coherence_inference_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP91A.ps1",
+    "new_path": "analysis/04_001_infection_source_feasibility_audit_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP91B2_FIXED.ps1",
+    "new_path": "analysis/04_002_infection_source_freeze_and_analysis_corrected_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP91B3_FIXED.ps1",
+    "new_path": "analysis/04_003_infection_source_freeze_and_analysis_field_collision_corrected_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP91B4_FIXED.ps1",
+    "new_path": "analysis/04_004_infection_source_freeze_and_analysis_attrition_corrected_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP91B.ps1",
+    "new_path": "analysis/04_005_infection_source_freeze_and_analysis_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP92A.ps1",
+    "new_path": "analysis/05_001_eii_feasibility_audit_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP92B2.ps1",
+    "new_path": "analysis/05_002_eii_baseline_harmonization_corrected_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP92B.ps1",
+    "new_path": "analysis/05_003_eii_construction_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP92C.ps1",
+    "new_path": "analysis/05_004_eii_cross_cohort_validation_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP92D.ps1",
+    "new_path": "analysis/05_005_eii_stability_comparison_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93A.ps1",
+    "new_path": "analysis/05_006_taxonomic_heterogeneity_vs_eii_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93B.ps1",
+    "new_path": "analysis/05_007_taxonomic_trajectory_heterogeneity_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93C.ps1",
+    "new_path": "analysis/05_008_taxonomic_divergence_vs_eii_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93D.ps1",
+    "new_path": "analysis/05_009_taxonomic_heterogeneity_index_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93E.ps1",
+    "new_path": "analysis/05_010_taxonomic_trajectory_divergence_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93F.ps1",
+    "new_path": "analysis/05_011_taxonomic_heterogeneity_calculation_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93G.ps1",
+    "new_path": "analysis/05_012_taxonomic_trajectory_divergence_revision_02_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93H.ps1",
+    "new_path": "analysis/05_013_taxonomic_trajectory_distance_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93I.ps1",
+    "new_path": "analysis/05_014_taxonomic_matrix_selection_fix_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93J.ps1",
+    "new_path": "analysis/05_015_raw_abundance_matrix_discovery_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93K.ps1",
+    "new_path": "analysis/05_016_genus_matrix_validation_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93L.ps1",
+    "new_path": "analysis/05_017_taxonomic_trajectory_reconstruction_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93M.ps1",
+    "new_path": "analysis/05_018_download_metadata_from_ncbi_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93N2.ps1",
+    "new_path": "analysis/05_019_metadata_autodiscovery_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93N3.ps1",
+    "new_path": "analysis/05_020_metadata_strict_mapping_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93N4.ps1",
+    "new_path": "analysis/05_021_patient_timepoint_reconstruction_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93N.ps1",
+    "new_path": "analysis/05_022_sample_mapping_build_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93O.ps1",
+    "new_path": "analysis/05_023_taxonomic_abundance_metadata_integration_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93P.ps1",
+    "new_path": "analysis/05_024_longitudinal_taxonomic_trajectory_analysis_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93Q.ps1",
+    "new_path": "analysis/05_025_trajectory_patient_id_reconstruction_fix_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93R2.ps1",
+    "new_path": "analysis/05_026_trajectory_distance_final_fix_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93R.ps1",
+    "new_path": "analysis/05_028_taxonomic_trajectory_divergence_analysis_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93R_FIX.ps1",
+    "new_path": "analysis/05_027_fix_na_trajectory_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93S2.ps1",
+    "new_path": "analysis/05_029_trajectory_distance_method_fix_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93S.ps1",
+    "new_path": "analysis/05_030_signed_trajectory_clustering_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93T2.ps1",
+    "new_path": "analysis/05_031_eii_file_selection_fix_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93T3.ps1",
+    "new_path": "analysis/05_032_eii_real_table_identification_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93T4.ps1",
+    "new_path": "analysis/05_033_eii_xlsx_patient_search_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93T5.ps1",
+    "new_path": "analysis/05_034_eii_all_format_discovery_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93T6.ps1",
+    "new_path": "analysis/05_035_eii_code_history_search_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93T6_FIX.ps1",
+    "new_path": "analysis/05_036_fix_eii_trajectory_integration_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93T7.ps1",
+    "new_path": "analysis/05_037_patient_id_mapping_audit_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93T8.ps1",
+    "new_path": "analysis/05_038_run_patient_mapping_reconstruction_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93T9.ps1",
+    "new_path": "analysis/05_041_run_to_patient_mapping_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93T9_DEBUG.ps1",
+    "new_path": "analysis/05_039_debug_path_check_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93T9_FIX.ps1",
+    "new_path": "analysis/05_040_fix_always_output_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93T10.ps1",
+    "new_path": "analysis/05_042_eii_trajectory_final_integration_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93T10B.ps1",
+    "new_path": "analysis/05_043_forced_run_bridge_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93T.ps1",
+    "new_path": "analysis/05_044_eii_trajectory_integration_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93T_FIX.ps1",
+    "new_path": "analysis/05_045_fix_patient_id_type_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93U.ps1",
+    "new_path": "analysis/05_046_trajectory_ecology_robustness_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93V2.ps1",
+    "new_path": "analysis/05_047_cross_cohort_trajectory_polarity_robust_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93V3.ps1",
+    "new_path": "analysis/05_048_step88b_estimand_reconciliation_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93V.ps1",
+    "new_path": "analysis/05_049_cross_cohort_trajectory_polarity_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93W.ps1",
+    "new_path": "analysis/05_050_longitudinal_evidence_freeze_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93X2.ps1",
+    "new_path": "analysis/07_001_prjna1010969_complete_group_validation_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93X3.ps1",
+    "new_path": "analysis/07_002_external_specificity_robustness_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93X4.ps1",
+    "new_path": "analysis/07_003_external_validation_evidence_freeze_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP93X.ps1",
+    "new_path": "analysis/07_004_prjna1010969_external_state_validation_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP94A2.ps1",
+    "new_path": "analysis/06_001_infection_source_excel_semantic_audit_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP94A3.ps1",
+    "new_path": "analysis/06_002_master_infection_source_project_resolution_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP94A4.ps1",
+    "new_path": "analysis/06_003_cra002354_rescue_and_readiness_audit_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP94A.ps1",
+    "new_path": "analysis/06_004_infection_source_feasibility_audit_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP94B1.ps1",
+    "new_path": "analysis/06_005_cra002354_fasta_otu97_silva1382_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/RUN_STEP94B1A.ps1",
+    "new_path": "analysis/06_006_cra002354_ambiguity_resolution_otu97_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP94B1B.ps1",
+    "new_path": "analysis/06_007_cra002354_fasta_write_fix_and_otu97_resume_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP94B1D.ps1",
+    "new_path": "analysis/06_008_cra002354_nonchimeric_otu_table_and_rarefaction_fix_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP94B1E.ps1",
+    "new_path": "analysis/06_009_cra002354_taxonomy_id_repair_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP94B2.ps1",
+    "new_path": "analysis/06_010_cra002354_formal_source_longitudinal_analysis_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP94B2A2.ps1",
+    "new_path": "analysis/06_011_94b2a2_cra002354_source_model_specification_freeze_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP94B2A3.ps1",
+    "new_path": "analysis/06_012_94b2a3_source_model_spec_qc_fix_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP94B2A.ps1",
+    "new_path": "analysis/06_013_cra002354_source_model_design_prep_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP94B2B.ps1",
+    "new_path": "analysis/06_014_cra002354_corrected_formal_source_longitudinal_analysis_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP94B2C.ps1",
+    "new_path": "analysis/06_015_cra002354_final_source_longitudinal_analysis_and_freeze_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP94B2D.ps1",
+    "new_path": "analysis/06_016_infection_source_evidence_freeze_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP94B3A.ps1",
+    "new_path": "analysis/06_017_cra002354_exploratory_genus_source_analysis_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP94B3B.ps1",
+    "new_path": "analysis/06_018_cra002354_genus_coverage_robustness_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP94B3C.ps1",
+    "new_path": "analysis/06_019_cra002354_genus_evidence_freeze_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP95A2.ps1",
+    "new_path": "analysis/09_001_global_evidence_synthesis_source_anchor_fix_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP95A.ps1",
+    "new_path": "analysis/09_002_global_evidence_synthesis_and_manuscript_map_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP95B.ps1",
+    "new_path": "analysis/09_003_manuscript_source_pack_assembly_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP95C.ps1",
+    "new_path": "analysis/09_004_manuscript_architecture_figure1_and_main_tables_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP95D2.ps1",
+    "new_path": "analysis/09_005_publication_figures_sourcepack_only_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP95D3.ps1",
+    "new_path": "analysis/09_006_final_figure_formatting_fix_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP95D.ps1",
+    "new_path": "analysis/09_007_publication_ready_figures_and_table_placement_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP95E2.ps1",
+    "new_path": "analysis/09_008_table1_analysis_population_fix_and_results_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP95E.ps1",
+    "new_path": "analysis/09_009_table1_and_results_draft_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP95F2.ps1",
+    "new_path": "analysis/09_010_results_and_table1_final_freeze_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP95F3.ps1",
+    "new_path": "analysis/09_011_results_and_table1_final_freeze_sentence_audit_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP95F.ps1",
+    "new_path": "analysis/09_012_results_polish_and_table1_manuscript_freeze_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP95G.ps1",
+    "new_path": "analysis/09_013_supplementary_tables_and_discussion_v1_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_36_METADATA_AUDIT.ps1",
+    "new_path": "analysis/04_006_metadata_enhancement_audit_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_36B.ps1",
+    "new_path": "analysis/04_007_clinical_metadata_deep_audit_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_36C.ps1",
+    "new_path": "analysis/04_008_clinical_variable_characterization_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_36D.ps1",
+    "new_path": "analysis/04_009_value_level_clinical_feasibility_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_36E2.ps1",
+    "new_path": "analysis/04_010_raw_clinical_metadata_recovery_audit_corrected_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_36E.ps1",
+    "new_path": "analysis/04_011_raw_clinical_metadata_recovery_audit_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_36F.ps1",
+    "new_path": "analysis/04_012_prjna851469_clinical_recovery_linkage_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_36G2.ps1",
+    "new_path": "analysis/04_013_prjna851469_day3_clinical_outcome_models_corrected_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_36G.ps1",
+    "new_path": "analysis/04_014_prjna851469_day3_clinical_outcome_models_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_36H.ps1",
+    "new_path": "analysis/04_015_cross_cohort_taxonomic_reproducibility_audit_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_36I2.ps1",
+    "new_path": "analysis/04_016_comparison_selection_fix_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_36I3.ps1",
+    "new_path": "analysis/04_017_cross_cohort_taxonomic_reproducibility_final_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_36I.ps1",
+    "new_path": "analysis/04_018_cross_cohort_taxonomic_reproducibility_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_36J.ps1",
+    "new_path": "analysis/04_019_microbiome_enhancement_evidence_freeze_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_96B.ps1",
+    "new_path": "analysis/09_014_results_integration_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_96C.ps1",
+    "new_path": "analysis/09_015_discussion_integration_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_96D2.ps1",
+    "new_path": "analysis/09_016_methods_source_verification_audit_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_96D3.ps1",
+    "new_path": "analysis/09_017_methods_manuscriptization_verified_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_96D4.ps1",
+    "new_path": "analysis/09_018_methods_final_manuscript_polish_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_96D.ps1",
+    "new_path": "analysis/09_019_methods_manuscriptization_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_96E.ps1",
+    "new_path": "analysis/09_020_figure3d_cross_cohort_reproducibility_final_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_96F.ps1",
+    "new_path": "analysis/09_021_manuscript_core_assembly_and_gap_audit_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_96G.ps1",
+    "new_path": "analysis/09_022_discussion_reference_resolution_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_96H.ps1",
+    "new_path": "analysis/09_023_introduction_integration_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_96I2.ps1",
+    "new_path": "analysis/09_024_reference_format_polish_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_96I.ps1",
+    "new_path": "analysis/09_025_final_reference_numbering_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_96J2.ps1",
+    "new_path": "analysis/09_030_stage_figure3_assets_revision_02_utility.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_96J3.ps1",
+    "new_path": "analysis/09_031_stage_self_contained_figure3_assets_utility.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_96J.ps1",
+    "new_path": "analysis/09_032_stage_figure3_assets_utility.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_96K2.ps1",
+    "new_path": "analysis/09_026_final_manuscript_text_and_audit_corrected_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_96K3.ps1",
+    "new_path": "analysis/09_027_final_manuscript_text_and_audit_corrected2_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/RUN_STEP_V2_96K.ps1",
+    "new_path": "analysis/09_028_final_manuscript_text_and_audit_run.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/99_DIRECTION_UPGRADE/99A1_download_and_inspect_supplement.py",
+    "new_path": "analysis/direction_analysis/08_001_download_and_inspect_supplement.py",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/99_DIRECTION_UPGRADE/99A2_direction_feasibility_audit.R",
+    "new_path": "analysis/direction_analysis/08_002_direction_feasibility_audit.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/99_DIRECTION_UPGRADE/99A3_finalize_feasibility.py",
+    "new_path": "analysis/direction_analysis/08_003_finalize_feasibility.py",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/99_DIRECTION_UPGRADE/99A4_compare_reproduction.py",
+    "new_path": "analysis/direction_analysis/08_004_compare_reproduction.py",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/99_DIRECTION_UPGRADE/99B0_initialize.py",
+    "new_path": "analysis/direction_analysis/08_005_initialize.py",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/99_DIRECTION_UPGRADE/99B1_direction_analysis.R",
+    "new_path": "analysis/direction_analysis/08_006_direction_analysis.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/99_DIRECTION_UPGRADE/99B2_finalize.py",
+    "new_path": "analysis/direction_analysis/08_007_finalize.py",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/99_DIRECTION_UPGRADE/99B3_compare_reproduction.py",
+    "new_path": "analysis/direction_analysis/08_008_compare_reproduction.py",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/99_DIRECTION_UPGRADE/99B4_audit_submission_placeholders.py",
+    "new_path": "analysis/direction_analysis/08_009_audit_submission_placeholders.py",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/99_DIRECTION_UPGRADE/99B5_citation_audit.py",
+    "new_path": "analysis/direction_analysis/08_010_citation_audit.py",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/99_DIRECTION_UPGRADE/RUN_A_FEASIBILITY.ps1",
+    "new_path": "analysis/direction_analysis/08_101_run_feasibility_workflow.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/99_DIRECTION_UPGRADE/RUN_B_DIRECTION.ps1",
+    "new_path": "analysis/direction_analysis/08_102_run_direction_workflow.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": true
+  },
+  {
+    "old_path": "analysis/final_figures/100B_rebuild_corrected_figures.R",
+    "new_path": "analysis/final_figures/10_001_rebuild_submission_figures.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/final_figures/100C_generate_corrected_legends.R",
+    "new_path": "analysis/final_figures/10_002_generate_figure_legends.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/final_figures/build_corrected_supplementary_information.py",
+    "new_path": "analysis/final_figures/10_003_assemble_supplementary_pdf.py",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "analysis/final_figures/figure_display_overrides.R",
+    "new_path": "analysis/final_figures/10_004_figure_display_settings.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "tools/REPRODUCE_SELECTED_STATISTICS.R",
+    "new_path": "tools/01_reproduce_selected_statistics.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "tools/REPRODUCE_SPECIMEN_SENSITIVITY.R",
+    "new_path": "tools/02_reproduce_specimen_sensitivity.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "tools/RENDER_DIRECTION_FOREST.R",
+    "new_path": "tools/03_render_direction_forest.R",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "tools/REPRODUCE_FINAL_FIGURES.py",
+    "new_path": "tools/04_reproduce_final_figures.py",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "tools/V2_REPRODUCE_TERMINAL_CHAIN.ps1",
+    "new_path": "tools/05_run_prepared_terminal_chain.ps1",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  },
+  {
+    "old_path": "tests/test_final_figure_runner.py",
+    "new_path": "tests/test_01_final_figure_runner.py",
+    "changes_limited_to_filename_and_code_location_references": true,
+    "code_location_relocated": false
+  }
+]

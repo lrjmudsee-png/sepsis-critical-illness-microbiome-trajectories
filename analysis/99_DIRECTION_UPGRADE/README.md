@@ -20,13 +20,13 @@ clinical/mechanistic deepening of the sepsis manuscript.
 From PowerShell:
 
 ```powershell
-& 'E:\sepsis_project\code\03_data_processing\99_DIRECTION_UPGRADE\RUN_A_FEASIBILITY.ps1'
+& 'E:\sepsis_project\code\03_data_processing\99_DIRECTION_UPGRADE\08_101_run_feasibility_workflow.ps1'
 ```
 
 For an independent reproduction, pass a fresh directory:
 
 ```powershell
-& 'E:\sepsis_project\code\03_data_processing\99_DIRECTION_UPGRADE\RUN_A_FEASIBILITY.ps1' `
+& 'E:\sepsis_project\code\03_data_processing\99_DIRECTION_UPGRADE\08_101_run_feasibility_workflow.ps1' `
   -OutputDir 'E:\sepsis_project\results\V2_UPGRADE_20260913_DIRECTION\A_FEASIBILITY_REPRO'
 ```
 
@@ -39,18 +39,18 @@ Stage B implements the frozen direction-of-change secondary analysis without
 rerunning sequence processing:
 
 - `B00_FIXED_SECONDARY_ANALYSIS_SPECIFICATION.md`: time-stamped fixed rules.
-- `99B0_initialize.py`: input and submission-tree immutability guards.
-- `99B1_direction_analysis.R`: patient balance, meta-analysis, sensitivities,
+- `08_005_initialize.py`: input and submission-tree immutability guards.
+- `08_006_direction_analysis.R`: patient balance, meta-analysis, sensitivities,
   healthy-reference analysis, and diagnostics.
-- `99B2_finalize.py`: independent checks, governance report, Chinese summary,
+- `08_007_finalize.py`: independent checks, governance report, Chinese summary,
   and a manuscript integration candidate.
-- `99B3_compare_reproduction.py`: byte-level deterministic rerun comparison.
-- `RUN_B_DIRECTION.ps1`: fresh-output runner that retains failed runs.
+- `08_008_compare_reproduction.py`: byte-level deterministic rerun comparison.
+- `08_102_run_direction_workflow.ps1`: fresh-output runner that retains failed runs.
 
 Example:
 
 ```powershell
-& 'E:\sepsis_project\code\03_data_processing\99_DIRECTION_UPGRADE\RUN_B_DIRECTION.ps1' `
+& 'E:\sepsis_project\code\03_data_processing\99_DIRECTION_UPGRADE\08_102_run_direction_workflow.ps1' `
   -OutputDirectory 'E:\sepsis_project\results\V2_UPGRADE_20260913_DIRECTION\B_DIRECTION_ANALYSIS'
 ```
 

@@ -1,6 +1,6 @@
 # Final submission figure reproduction
 
-The authoritative final display layer is `analysis/final_figures/`, derived from the corrected 2 October 2026 submission figure build. Use `tools/REPRODUCE_FINAL_FIGURES.py`, not the historical cosmetic scripts, to reproduce the five main figures and six supplementary figures. The new interface requires explicit input and output directories and does not depend on a local project root or an E: drive.
+The authoritative final display layer is `analysis/final_figures/`, derived from the corrected 2 October 2026 submission figure build. Use `tools/04_reproduce_final_figures.py`, not the historical cosmetic scripts, to reproduce the five main figures and six supplementary figures. The new interface requires explicit input and output directories and does not depend on a local project root or an E: drive.
 
 This route renders frozen results; it does not fit models, recompute confidence intervals, run statistical tests, change patient mappings, or process FASTQ reads. Selected-statistics reproduction remains a separate route documented in `SELECTED_STATISTICS_REPRODUCTION.md` and uses Supplementary Data 5.
 
@@ -17,7 +17,7 @@ Tested with R 4.4.0 on Windows and readr 2.2.0, dplyr 1.2.1, tidyr 1.3.2, tibble
 From any working directory, use absolute paths or paths relative to that directory:
 
 ```text
-python /path/to/repository/tools/REPRODUCE_FINAL_FIGURES.py --inputs /path/to/frozen_csvs --output /path/to/new_figure_build --rscript /path/to/Rscript --font-dir /path/to/Arial_fonts
+python /path/to/repository/tools/04_reproduce_final_figures.py --inputs /path/to/frozen_csvs --output /path/to/new_figure_build --rscript /path/to/Rscript --font-dir /path/to/Arial_fonts
 ```
 
 Omit `--font-dir` for the 33 figure exports and generated legend files without supplementary PDF assembly. Use `--check-only` to verify inputs without writing outputs. Existing output directories are refused. Input checksum failures are reported before a build begins.
@@ -26,4 +26,4 @@ The build writes PDF, 300-dpi PNG and LZW-compressed 600-dpi TIFF for each of 11
 
 ## Scope and historical provenance
 
-Retained historical scripts remain unchanged. Previously missing historical 96F2-F11 cosmetic scripts are not recovered by this update; the corrected final display layer now provides the current figure-rendering route. This update does not establish complete raw-to-manuscript reproduction, clinical roster adjudication, or permission to redistribute input data. No GitHub release, version tag or Zenodo DOI is created by this update.
+The 4 October naming migration renames programs and software-location references only; scientific calculations and frozen data/output names are preserved. Previously missing historical 96F2-F11 cosmetic scripts are not recovered by this update; the corrected final display layer provides the current figure-rendering route. This update does not establish complete raw-to-manuscript reproduction, clinical roster adjudication, or permission to redistribute input data. No GitHub release, version tag or published Zenodo DOI is created by this update.
