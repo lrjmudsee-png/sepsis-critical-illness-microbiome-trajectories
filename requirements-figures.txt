@@ -1,0 +1,3 @@
+# Tested Python PDF-assembly environment; not required for R-only rendering.
+Pillow==12.3.0
+reportlab==4.4.9

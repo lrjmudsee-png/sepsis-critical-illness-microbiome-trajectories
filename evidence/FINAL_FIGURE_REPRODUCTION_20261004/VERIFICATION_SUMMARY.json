@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-04",
+  "input_files_verified": 24,
+  "figure_exports": 33,
+  "bitmap_exports_pixel_identical": 22,
+  "bitmap_exports_compared": 22,
+  "figure_pdf_text_matches": 11,
+  "generated_legends_identical": 2,
+  "supplementary_pdf_text_identical": true,
+  "safety_tests_passed": true,
+  "inference_rerun": false,
+  "raw_read_processing_rerun": false,
+  "all_comparisons_passed": true
+}

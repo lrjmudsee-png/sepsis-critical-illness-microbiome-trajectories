@@ -1,0 +1,10 @@
+test_changed_input_refused_before_build (test_final_figure_runner.FigureRunnerSafetyTests.test_changed_input_refused_before_build) ... ok
+test_check_only_writes_nothing (test_final_figure_runner.FigureRunnerSafetyTests.test_check_only_writes_nothing) ... ok
+test_existing_output_preserved (test_final_figure_runner.FigureRunnerSafetyTests.test_existing_output_preserved) ... ok
+test_missing_input_refused_before_build (test_final_figure_runner.FigureRunnerSafetyTests.test_missing_input_refused_before_build) ... ok
+test_missing_rscript_refused (test_final_figure_runner.FigureRunnerSafetyTests.test_missing_rscript_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.516s
+
+OK

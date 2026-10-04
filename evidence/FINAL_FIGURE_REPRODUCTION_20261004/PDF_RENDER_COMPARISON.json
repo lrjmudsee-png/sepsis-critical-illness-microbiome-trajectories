@@ -1,0 +1,67 @@
+{
+  "pdf_files_compared": 12,
+  "pages_compared": 18,
+  "all_rendered_pages_identical": true,
+  "comparisons": [
+    {
+      "file": "Figure_1_Study_Architecture.pdf",
+      "pages": 1,
+      "rendered_pixels_identical": true
+    },
+    {
+      "file": "Figure_2_Cross_Cohort_Longitudinal_Displacement.pdf",
+      "pages": 1,
+      "rendered_pixels_identical": true
+    },
+    {
+      "file": "Figure_3_Core_Sepsis_and_Taxonomic_Concordance.pdf",
+      "pages": 1,
+      "rendered_pixels_identical": true
+    },
+    {
+      "file": "Figure_4_External_Validation_Trauma_Comparison.pdf",
+      "pages": 1,
+      "rendered_pixels_identical": true
+    },
+    {
+      "file": "Figure_5_Infection_Source_Longitudinal_Ecology.pdf",
+      "pages": 1,
+      "rendered_pixels_identical": true
+    },
+    {
+      "file": "Supplementary_Figure_S1_Taxonomic_Concordance_Sensitivity.pdf",
+      "pages": 1,
+      "rendered_pixels_identical": true
+    },
+    {
+      "file": "Supplementary_Figure_S2_Pair_Counts.pdf",
+      "pages": 1,
+      "rendered_pixels_identical": true
+    },
+    {
+      "file": "Supplementary_Figure_S3_Bray_Meta_Analysis.pdf",
+      "pages": 1,
+      "rendered_pixels_identical": true
+    },
+    {
+      "file": "Supplementary_Figure_S4_CZM_Aitchison_Meta_Analysis.pdf",
+      "pages": 1,
+      "rendered_pixels_identical": true
+    },
+    {
+      "file": "Supplementary_Figure_S5_Family_Balance.pdf",
+      "pages": 1,
+      "rendered_pixels_identical": true
+    },
+    {
+      "file": "Supplementary_Figure_S6_Healthy_Reference.pdf",
+      "pages": 1,
+      "rendered_pixels_identical": true
+    },
+    {
+      "file": "Supplementary_Information.pdf",
+      "pages": 7,
+      "rendered_pixels_identical": true
+    }
+  ]
+}

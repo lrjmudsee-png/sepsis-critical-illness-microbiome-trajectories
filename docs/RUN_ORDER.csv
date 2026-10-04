@@ -57,3 +57,4 @@
 99B,analysis/99_DIRECTION_UPGRADE/RUN_B_DIRECTION.ps1,V2_UPGRADE_20260913_DIRECTION/B_DIRECTION_ANALYSIS_FINAL,冻结secondary balance与healthy reference及阴性结果
 99C,tools/REPRODUCE_SELECTED_STATISTICS.R,NEW_OUTPUT_DIRECTORY,参数化flat inputs统计子集，98项核对
 99D,tools/REPRODUCE_SPECIMEN_SENSITIVITY.R,NEW_SPECIMEN_OUTPUT_DIRECTORY,09-15 post-hoc取样一致性敏感性，不改原主结果
+100FINAL,tools/REPRODUCE_FINAL_FIGURES.py,NEW_FIGURE_OUTPUT_DIRECTORY,10-04 portable corrected submission figure rendering from 24 checksum-frozen external CSVs; no inference or FASTQ processing

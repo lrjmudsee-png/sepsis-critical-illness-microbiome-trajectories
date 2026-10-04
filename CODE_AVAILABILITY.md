@@ -1,6 +1,6 @@
 # Code and data availability
 
-## Current statement (18 September 2026)
+## Current statement (4 October 2026)
 
 Retained analysis scripts and reproducibility documentation are available at <https://github.com/lrjmudsee-png/sepsis-critical-illness-microbiome-trajectories>. Original code and associated software documentation are provided under the MIT License, copyright (c) 2026 Lu Rongji. This software license does not relicense public source data, research datasets/results or third-party dependencies; see [licensing scope](docs/LICENSING.md).
 
@@ -13,3 +13,5 @@ Raw sequencing data were obtained from public repositories under accessions PRJN
 Large raw-read files and patient-level data are not redistributed in the code repository. The tested terminal reproduction route begins from prepared frozen metadata and processed analysis objects that are not all publicly distributed here. Selected-statistics runners use processed inputs supplied with the manuscript as Supplementary Data 5; cloning the code repository alone is insufficient to rerun every manuscript result. The retained historical raw-read workflow remains partly dependent on the original Windows directory layout. Historical 96F2-F11 cosmetic figure scripts have not been recovered. See [processed-input availability](docs/PROCESSED_INPUT_AVAILABILITY.md) and [selected-statistics reproduction](docs/SELECTED_STATISTICS_REPRODUCTION.md).
 
 Software citation metadata are provided in the active `CITATION.cff`, aligned with the manuscript CRediT statement. Processed inputs needed for the selected statistical reruns are supplied with the manuscript as Supplementary Data 5. A versioned GitHub release and Zenodo DOI have not yet been issued; the submission is pinned to the exact Git commit reported in the manuscript.
+
+The corrected final figure display layer is now included in `analysis/final_figures/`, with an explicit-directory runner, a 24-file input checksum manifest and optional supplementary PDF assembly. It rebuilds five main and six supplementary figures from frozen derived inputs without rerunning inference. The frozen figure-input CSVs are available from the authors for reviewer access pending redistribution review and are not included in this software repository. Full-length generated main-figure audit legends are distinct from the condensed legends in the manuscript. See [final figure reproduction](docs/FINAL_FIGURE_PIPELINE.md). Current-code verification results are recorded separately from the historical terminal-chain evidence.

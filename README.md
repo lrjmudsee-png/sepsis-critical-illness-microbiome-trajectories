@@ -75,13 +75,15 @@ The retained historical workflow is mapped in `docs/RUN_ORDER.csv`. It includes 
 
 This full route has not been rerun after packaging and remains partly Windows-path-bound. Several historical scripts also install packages automatically. A future archival release should parameterize the remaining paths and lock the environment with `renv` or a container.
 
-Historical 96F2-F11 cosmetic figure scripts have not been recovered. The smaller public forest-rendering entry does not replace these missing scripts or reproduce all final figure styling.
+Historical 96F2-F11 cosmetic figure scripts have not been recovered. For current submission figure styling, use the corrected final display layer in `analysis/final_figures/`, documented in [final figure reproduction](docs/FINAL_FIGURE_PIPELINE.md). Its external frozen CSV inputs are not included in this code-only repository.
 
 ## Important provenance note
 
 The repository preserves superseded and repair scripts because they document how the final frozen workflow was reached. Use `docs/RUN_ORDER.csv`, the `FINAL`, `FIXED`, and freeze-labelled scripts, and the 11-step terminal chain above when identifying authoritative outputs.
 
 ## Code availability statement
+
+The 4 October 2026 code update adds the actual corrected submission figure programs, explicit input/output arguments, mandatory input checksum verification and output-overwrite protection. Run `tools/REPRODUCE_FINAL_FIGURES.py` to render all five main and six supplementary figures from the 24 frozen CSV inputs. This is a rendering route, not a new statistical analysis or raw-read reprocessing. See [final figure reproduction](docs/FINAL_FIGURE_PIPELINE.md) for input-access limits, environment versions and commands. No GitHub release or Zenodo DOI is created by this update.
 
 Analysis code, run order, environment information, public data accessions, and machine-readable terminal reproduction checks for this study are available at <https://github.com/lrjmudsee-png/sepsis-critical-illness-microbiome-trajectories>. Raw sequence data remain available from their originating public archives under the accessions listed above.
 
