@@ -46,4 +46,5 @@ This migration changes script names and references to software locations. Statis
 
 Historical scripts remain partly dependent on the original Windows project, package environment and frozen inputs. Missing historical source/assets are not reconstructed by renaming. Historical evidence records and `MANIFEST_SHA256.csv` intentionally preserve their original names and hashes. Use the current `CODE_FILE_MANIFEST.csv` for this distribution. The new `evidence/NAMING_MIGRATION_20261004/` reports tests of the renamed software, not a new full FASTQ/DADA2 rerun.
 
-Software authorship remains Lu, Rongji and the original software license remains MIT. A saved Zenodo draft is not a published DOI. Do not create a second parallel archive for the same software snapshot.
+Software authorship remains Lu, Rongji and the original software license remains MIT. Software version `1.0.0`, from commit `1e998aaa9b19e48643996c95d78b7cf7b74b1807`, is published at [Zenodo DOI 10.5281/zenodo.23134779](https://doi.org/10.5281/zenodo.23134779). The archive is immutable; later documentation updates on the default branch do not change this archived software snapshot. Do not create a duplicate archive for the same snapshot. Additional reporting-recovery helpers are supplied with the manuscript's Supplementary Data 5 rather than the archived software.
+

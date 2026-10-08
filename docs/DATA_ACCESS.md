@@ -44,4 +44,5 @@ Subject to the target journal's policy and an appropriate rights/privacy review,
 4. Final figures/tables and SHA256 manifest.
 5. Accession-to-sample/run inclusion manifest.
 
-The code repository is <https://github.com/lrjmudsee-png/sepsis-critical-illness-microbiome-trajectories>. Original software is MIT-licensed; this does not authorize redistribution or relicensing of the source datasets. See [licensing scope](LICENSING.md). A versioned release tag and archival DOI have not been assigned by this update, and Zenodo remains deferred. Insert only verified identifiers into manuscript and submission materials; do not use placeholder DOIs.
+The code repository is <https://github.com/lrjmudsee-png/sepsis-critical-illness-microbiome-trajectories>. Original software is MIT-licensed; this does not authorize redistribution or relicensing of the source datasets. See [licensing scope](LICENSING.md). Software version `1.0.0`, from commit `1e998aaa9b19e48643996c95d78b7cf7b74b1807`, is published at [Zenodo DOI 10.5281/zenodo.23134779](https://doi.org/10.5281/zenodo.23134779). The archive is immutable; later documentation updates on the default branch do not change this archived software snapshot. Insert only verified identifiers into manuscript and submission materials; do not use placeholder DOIs.
+

@@ -8,7 +8,7 @@ Code-availability repository for the study of longitudinal gut-microbiome ecolog
 
 Original code and associated software documentation are licensed under the [MIT License](LICENSE), copyright (c) 2026 Lu Rongji. This does not relicense public source data, research outputs or third-party software; see [licensing scope](docs/LICENSING.md).
 
-This is a code-and-audit repository, not yet a self-contained reproduction package for every manuscript result. Selected statistical runners require processed inputs distributed with the manuscript as Supplementary Data 5; those inputs are not duplicated in this code-only repository. The public aggregate forest example can be rendered using the command in [selected-statistics reproduction](docs/SELECTED_STATISTICS_REPRODUCTION.md). Software citation metadata are now provided in `CITATION.cff`; a versioned archival release and Zenodo DOI remain pending.
+This is a code-and-audit repository, not yet a self-contained reproduction package for every manuscript result. Selected statistical runners require processed inputs distributed with the manuscript as Supplementary Data 5; those inputs are not duplicated in this code-only repository. The public aggregate forest example can be rendered using the command in [selected-statistics reproduction](docs/SELECTED_STATISTICS_REPRODUCTION.md). Software citation metadata are provided in `CITATION.cff`. Software version `1.0.0`, from commit `1e998aaa9b19e48643996c95d78b7cf7b74b1807`, is published at [Zenodo DOI 10.5281/zenodo.23134779](https://doi.org/10.5281/zenodo.23134779). The archive is immutable; later documentation updates on the default branch do not change this archived software snapshot.
 
 ## Repository contents
 
@@ -75,7 +75,7 @@ powershell -ExecutionPolicy Bypass -File tools/05_run_prepared_terminal_chain.ps
 
 The retained historical workflow is mapped in `docs/RUN_ORDER.csv`. It includes metadata reconstruction, DADA2 processing, the VSEARCH 97% OTU route for CRA002354, SILVA 138.2 taxonomy assignment, analysis-object freezing, longitudinal models, robustness analyses, and manuscript integration.
 
-This full route has not been rerun after packaging and remains partly Windows-path-bound. Several historical scripts also install packages automatically. A future archival release should parameterize the remaining paths and lock the environment with `renv` or a container.
+This full route has not been rerun after packaging and remains partly Windows-path-bound. Several historical scripts also install packages automatically. A future software version should parameterize the remaining paths and lock the environment with `renv` or a container.
 
 Historical 96F2-F11 cosmetic figure scripts have not been recovered. For current submission figure styling, use the corrected final display layer in `analysis/final_figures/`, documented in [final figure reproduction](docs/FINAL_FIGURE_PIPELINE.md). Its external frozen CSV inputs are not included in this code-only repository.
 
@@ -85,7 +85,7 @@ The repository preserves superseded and repair scripts because they document how
 
 ## Code availability statement
 
-The 4 October 2026 code update adds the actual corrected submission figure programs, explicit input/output arguments, mandatory input checksum verification and output-overwrite protection. Run `tools/04_reproduce_final_figures.py` to render all five main and six supplementary figures from the 24 frozen CSV inputs. This is a rendering route, not a new statistical analysis or raw-read reprocessing. See [final figure reproduction](docs/FINAL_FIGURE_PIPELINE.md) for input-access limits, environment versions and commands. No GitHub release or Zenodo DOI is created by this update.
+The 4 October 2026 code update adds the actual corrected submission figure programs, explicit input/output arguments, mandatory input checksum verification and output-overwrite protection. Run `tools/04_reproduce_final_figures.py` to render all five main and six supplementary figures from the 24 frozen CSV inputs. This is a rendering route, not a new statistical analysis or raw-read reprocessing. See [final figure reproduction](docs/FINAL_FIGURE_PIPELINE.md) for input-access limits, environment versions and commands. The submission snapshot is archived as Zenodo version 1.0.0 at the DOI above; no new software archive is created by the 8 October documentation update.
 
 Analysis code, run order, environment information, public data accessions, and machine-readable terminal reproduction checks for this study are available at <https://github.com/lrjmudsee-png/sepsis-critical-illness-microbiome-trajectories>. Raw sequence data remain available from their originating public archives under the accessions listed above.
 
@@ -101,4 +101,9 @@ The `analysis/direction_analysis/` snapshot contains the retrospective fixed fam
 
 ## Final specimen governance and portable tests
 
-The 2026-09-15 post-hoc PRJNA516701 audit found mixed stool/rectal specimens and five of 15 pairs with a type change at an available visit. Aggregate same-specimen and cohort-exclusion sensitivity results, plus 98 selected-statistics checks and isolated ZIP-run checks, are in `evidence/FINALIZATION_20260915/`. The original primary sets/results were preserved; sensitivities are nominal, not replacement primary tests. `tools/02_reproduce_specimen_sensitivity.R` requires the documented metafor environment. See `docs/SELECTED_STATISTICS_REPRODUCTION.md`. The repository now includes an active `CITATION.cff` aligned with the manuscript CRediT statement, with Rongji Lu listed as the software creator. A versioned GitHub release and Zenodo DOI remain pending and should be created only after the submission snapshot is frozen. MIT software licensing does not resolve the separate data-redistribution review.
+The 2026-09-15 post-hoc PRJNA516701 audit found mixed stool/rectal specimens and five of 15 pairs with a type change at an available visit. Aggregate same-specimen and cohort-exclusion sensitivity results, plus 98 selected-statistics checks and isolated ZIP-run checks, are in `evidence/FINALIZATION_20260915/`. The original primary sets/results were preserved; sensitivities are nominal, not replacement primary tests. `tools/02_reproduce_specimen_sensitivity.R` requires the documented metafor environment. See `docs/SELECTED_STATISTICS_REPRODUCTION.md`. The repository now includes an active `CITATION.cff` aligned with the manuscript CRediT statement, with Rongji Lu listed as the software creator. Software version `1.0.0`, from commit `1e998aaa9b19e48643996c95d78b7cf7b74b1807`, is published at [Zenodo DOI 10.5281/zenodo.23134779](https://doi.org/10.5281/zenodo.23134779). The archive is immutable; later documentation updates on the default branch do not change this archived software snapshot. MIT software licensing does not resolve the separate data-redistribution review.
+
+## Reporting addenda supplied with the manuscript (8 October 2026)
+
+Supplementary Data 5 also supplies `REPORT_POOLED_EFFECT_TESTS.R` and `REPORT_DISCOVERY_SIGNED_RANK.R`, with their aggregate reporting tables and task-specific R session record. These downstream reporting-recovery helpers are not included in the archived 1.0.0 snapshot. They do not rerun FASTQ/DADA2 or change the frozen primary results. Cite the fixed software DOI above and retain the manuscript supplement when reproducing these addenda.
+

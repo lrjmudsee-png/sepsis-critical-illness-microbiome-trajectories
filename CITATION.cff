@@ -2,6 +2,8 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata from this file."
 type: software
 version: "1.0.0"
+doi: "10.5281/zenodo.23134779"
+date-released: "2026-10-04"
 title: "Longitudinal gut-microbiome trajectories in sepsis and critical illness"
 authors:
   - family-names: "Lu"
@@ -10,3 +12,4 @@ repository-code: "https://github.com/lrjmudsee-png/sepsis-critical-illness-micro
 url: "https://github.com/lrjmudsee-png/sepsis-critical-illness-microbiome-trajectories"
 license: MIT
 abstract: "Analysis code, reproducibility documentation, and selected statistical runners for within-patient gut-microbiome ecological displacement and heterogeneous taxonomic trajectories across public sepsis and critical-illness cohorts."
+

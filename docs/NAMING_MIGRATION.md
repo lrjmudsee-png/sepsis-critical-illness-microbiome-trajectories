@@ -10,4 +10,5 @@ Original `evidence/` files and the original `MANIFEST_SHA256.csv` preserve their
 
 Inventory numbering is not a full executable dependency graph. Do not run all historical revisions, diagnostic trials and launchers sequentially. Missing historical sources and packaged assets are not recreated by this migration.
 
-The unchanged proposed first Zenodo version is `1.0.0`; this is a draft version label, not a GitHub release or a published DOI. The original creator is Lu, Rongji and original software licensing remains MIT. No patient-level inputs are added to this code repository.
+At the 4 October naming migration, `1.0.0` was the proposed draft label. Current archival status (8 October 2026): Software version `1.0.0`, from commit `1e998aaa9b19e48643996c95d78b7cf7b74b1807`, is published at [Zenodo DOI 10.5281/zenodo.23134779](https://doi.org/10.5281/zenodo.23134779). The archive is immutable; later documentation updates on the default branch do not change this archived software snapshot. The original creator is Lu, Rongji and original software licensing remains MIT. No patient-level inputs are added to this code repository.
+

@@ -21,10 +21,11 @@ The copyright holder was supplied by the repository maintainer. This notice is n
 
 Please acknowledge the software repository and, when available, the final article and versioned software citation in scholarly work. This is an academic request, not an extra condition of MIT.
 
-`CITATION.cff` is active and aligned with the manuscript CRediT statement; Rongji Lu is listed as the software creator. The copyright holder remains a separate legal concept from manuscript authorship. Zenodo publication and a new versioned GitHub release remain deferred; no DOI is asserted until an archival record is actually created.
+`CITATION.cff` is active and aligned with the manuscript CRediT statement; Rongji Lu is listed as the software creator. The copyright holder remains a separate legal concept from manuscript authorship. Software version `1.0.0`, from commit `1e998aaa9b19e48643996c95d78b7cf7b74b1807`, is published at [Zenodo DOI 10.5281/zenodo.23134779](https://doi.org/10.5281/zenodo.23134779). The archive is immutable; later documentation updates on the default branch do not change this archived software snapshot.
 
 ## Checks performed on 18 September 2026
 
 The root MIT text, README scope, code-availability statement and file manifest were aligned. A text scan of the retained scripts and Markdown documentation did not identify pre-existing copyright/license or copied/adapted-from notices. This limited scan is not a full provenance or legal audit and does not establish ownership of every line. Third-party ownership questions must be resolved by the maintainer and relevant rightsholders.
 
 Reference guidance: [MIT template](https://choosealicense.com/licenses/mit/) and [GitHub licensing documentation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
+

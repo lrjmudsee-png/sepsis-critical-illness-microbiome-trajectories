@@ -1,5 +1,13 @@
 # Release notes
 
+## Published archive and reporting-documentation synchronization — 2026-10-08
+
+- Software version `1.0.0`, from commit `1e998aaa9b19e48643996c95d78b7cf7b74b1807`, is published at [Zenodo DOI 10.5281/zenodo.23134779](https://doi.org/10.5281/zenodo.23134779). The archive is immutable; later documentation updates on the default branch do not change this archived software snapshot.
+- Added the verified archival DOI and release date to active `CITATION.cff` and synchronized current code/data/licensing and reproduction documentation.
+- Refreshed `CODE_FILE_MANIFEST.csv`; no scientific script, input, frozen result, license or inferential decision was changed.
+- Additional statistical-reporting helpers are supplied in manuscript Supplementary Data 5; they are not part of the archived 1.0.0 snapshot.
+- Sections below record historical status on their stated dates. References there to pending publication, inactive templates and old filenames are not the current availability statement.
+
 ## Submission-ready metadata update 2026-09-22
 
 - Aligned `CITATION.cff` with the manuscript CRediT statement; Rongji Lu is listed as the software creator.
@@ -46,3 +54,4 @@ Added the 99 direction snapshot, two parameterized statistical entries, aggregat
 - Included an isolated 11-step terminal reproduction report and machine-readable comparisons.
 - Fixed Windows R source-encoding handling by clearing incompatible `C.UTF-8` environment variables and passing `--encoding=UTF-8`.
 - Fixed the Step95A2 source locator so later manuscript/reproducibility directories cannot make its candidate audit self-referential.
+
