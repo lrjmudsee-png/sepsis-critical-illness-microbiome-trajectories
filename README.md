@@ -2,13 +2,17 @@
 
 Code-availability repository for the study of longitudinal gut-microbiome ecological displacement and heterogeneous taxonomic trajectories across sepsis and critical-illness cohorts.
 
-**Start with [START_HERE.md](START_HERE.md).** All 364 distributed programs and launchers now have descriptive numbered names. [The filename map](docs/CODE_FILENAME_MAP.csv) connects the old names to the new names; historical data/output labels remain unchanged. Numbered inventory order does not mean every historical alternative should be executed.
+**Start with [START_HERE.md](START_HERE.md).** The distributed programs and launchers use descriptive numbered names. [The filename map](docs/CODE_FILENAME_MAP.csv) connects the old names to the new names; historical data/output labels remain unchanged. Numbered inventory order does not mean every historical alternative should be executed.
+
+## Current figure display code
+
+The 28 October 2026 display update reproduces the reviewed five main and six supplemental figures, with editable SVG/PDF text and portable plot-area checks. See [final figure reproduction](docs/FINAL_FIGURE_PIPELINE.md). It renders unchanged frozen results; the 24 external input CSVs are supplied with the manuscript as Data Set S6. The original analysis archive at Zenodo version 1.0.0 remains unchanged.
 
 ## License and current availability
 
 Original code and associated software documentation are licensed under the [MIT License](LICENSE), copyright (c) 2026 Lu Rongji. This does not relicense public source data, research outputs or third-party software; see [licensing scope](docs/LICENSING.md).
 
-This is a code-and-audit repository, not yet a self-contained reproduction package for every manuscript result. Selected statistical runners require processed inputs distributed with the manuscript as Supplementary Data 5; those inputs are not duplicated in this code-only repository. The public aggregate forest example can be rendered using the command in [selected-statistics reproduction](docs/SELECTED_STATISTICS_REPRODUCTION.md). Software citation metadata are provided in `CITATION.cff`. Software version `1.0.0`, from commit `1e998aaa9b19e48643996c95d78b7cf7b74b1807`, is published at [Zenodo DOI 10.5281/zenodo.23134779](https://doi.org/10.5281/zenodo.23134779). The archive is immutable; later documentation updates on the default branch do not change this archived software snapshot.
+This is a code-and-audit repository, not yet a self-contained reproduction package for every manuscript result. Selected statistical runners require processed inputs distributed with the manuscript as Supplementary Data 5; those inputs are not duplicated in this code-only repository. The public aggregate forest example can be rendered using the command in [selected-statistics reproduction](docs/SELECTED_STATISTICS_REPRODUCTION.md). Software citation metadata are provided in `CITATION.cff`. Software version `1.0.0`, from commit `1e998aaa9b19e48643996c95d78b7cf7b74b1807`, is published at [Zenodo DOI 10.5281/zenodo.23134779](https://doi.org/10.5281/zenodo.23134779). The archive is immutable; later documentation and figure-display updates on the default branch do not change this archived software snapshot.
 
 ## Repository contents
 
@@ -101,7 +105,7 @@ The `analysis/direction_analysis/` snapshot contains the retrospective fixed fam
 
 ## Final specimen governance and portable tests
 
-The 2026-09-15 post-hoc PRJNA516701 audit found mixed stool/rectal specimens and five of 15 pairs with a type change at an available visit. Aggregate same-specimen and cohort-exclusion sensitivity results, plus 98 selected-statistics checks and isolated ZIP-run checks, are in `evidence/FINALIZATION_20260915/`. The original primary sets/results were preserved; sensitivities are nominal, not replacement primary tests. `tools/02_reproduce_specimen_sensitivity.R` requires the documented metafor environment. See `docs/SELECTED_STATISTICS_REPRODUCTION.md`. The repository now includes an active `CITATION.cff` aligned with the manuscript CRediT statement, with Rongji Lu listed as the software creator. Software version `1.0.0`, from commit `1e998aaa9b19e48643996c95d78b7cf7b74b1807`, is published at [Zenodo DOI 10.5281/zenodo.23134779](https://doi.org/10.5281/zenodo.23134779). The archive is immutable; later documentation updates on the default branch do not change this archived software snapshot. MIT software licensing does not resolve the separate data-redistribution review.
+The 2026-09-15 post-hoc PRJNA516701 audit found mixed stool/rectal specimens and five of 15 pairs with a type change at an available visit. Aggregate same-specimen and cohort-exclusion sensitivity results, plus 98 selected-statistics checks and isolated ZIP-run checks, are in `evidence/FINALIZATION_20260915/`. The original primary sets/results were preserved; sensitivities are nominal, not replacement primary tests. `tools/02_reproduce_specimen_sensitivity.R` requires the documented metafor environment. See `docs/SELECTED_STATISTICS_REPRODUCTION.md`. The repository now includes an active `CITATION.cff` aligned with the manuscript CRediT statement, with Rongji Lu listed as the software creator. Software version `1.0.0`, from commit `1e998aaa9b19e48643996c95d78b7cf7b74b1807`, is published at [Zenodo DOI 10.5281/zenodo.23134779](https://doi.org/10.5281/zenodo.23134779). The archive is immutable; later documentation and figure-display updates on the default branch do not change this archived software snapshot. MIT software licensing does not resolve the separate data-redistribution review.
 
 ## Reporting addenda supplied with the manuscript (8 October 2026)
 

@@ -10,6 +10,8 @@
 # ============================================================
 
 options(stringsAsFactors = FALSE)
+grDevices::pdfFonts(Arial = grDevices::pdfFonts("Helvetica")[[1]])
+source(file.path(dirname(normalizePath(sub("^--file=", "", grep("^--file=", commandArgs(FALSE), value=TRUE)[1]))), "10_005_check_panel_layout.R"),encoding="UTF-8")
 
 suppressPackageStartupMessages({
   library(readr)
@@ -79,7 +81,9 @@ panel_label <- function(label) {
 
 open_device <- function(path, type, width, height) {
   if (type == "pdf") {
-    cairo_pdf(path, width = width, height = height, family = "Arial", onefile = FALSE)
+    grDevices::pdf(path, width = width, height = height, family = "Arial", onefile = FALSE, useDingbats = FALSE)
+  } else if (type == "svg") {
+    svglite::svglite(path,width=width,height=height)
   } else if (type == "png") {
     agg_png(path, width = width, height = height, units = "in", res = 300, background = "white")
   } else if (type == "tiff") {
@@ -93,21 +97,32 @@ open_device <- function(path, type, width, height) {
 render_set <- function(stem, directory, width, height, plot_fun) {
   width <- 7.25
   height <- switch(stem,
-    Figure_1_Study_Architecture = 5.5,
-    Figure_2_Cross_Cohort_Longitudinal_Displacement = 4.6,
-    Figure_3_Core_Sepsis_and_Taxonomic_Concordance = 6.8,
-    Figure_4_External_Validation_Trauma_Comparison = 6.0,
-    Figure_5_Infection_Source_Longitudinal_Ecology = 7.2,
-    Supplementary_Figure_S1_Taxonomic_Concordance_Sensitivity = 6.6,
-    Supplementary_Figure_S2_Pair_Counts = 4.4,
-    Supplementary_Figure_S3_Bray_Meta_Analysis = 3.5,
-    Supplementary_Figure_S4_CZM_Aitchison_Meta_Analysis = 3.5,
-    Supplementary_Figure_S5_Family_Balance = 4.5,
-    Supplementary_Figure_S6_Healthy_Reference = 4.4)
+    Figure_1_Study_Architecture = 3.2,
+    Figure_2_Cross_Cohort_Longitudinal_Displacement = 3.55,
+    Figure_3_Core_Sepsis_and_Taxonomic_Concordance = 6.0,
+    Figure_4_External_Validation_Trauma_Comparison = 4.6,
+    Figure_5_Infection_Source_Longitudinal_Ecology = 5.7,
+    Supplementary_Figure_S1_Taxonomic_Concordance_Sensitivity = 4.8,
+    Supplementary_Figure_S2_Pair_Counts = 3.35,
+    Supplementary_Figure_S3_Bray_Meta_Analysis = 2.9,
+    Supplementary_Figure_S4_CZM_Aitchison_Meta_Analysis = 2.9,
+    Supplementary_Figure_S5_Family_Balance = 3.5,
+    Supplementary_Figure_S6_Healthy_Reference = 3.55)
   revised <- corrected_plot(stem)
   if (is.null(revised)) stop("No reviewed final plot implementation for: ", stem)
+  if (inherits(revised, "patchwork")) {
+    require_patchwork_panel_alignment(
+      revised,
+      manifest_path = file.path(directory,paste0(stem,".alignment-layout.json")),
+      report_path = file.path(directory,paste0(stem,".alignment.json")),
+      width_in=width,height_in=height,
+      audit_script=file.path(dirname(normalizePath(sub("^--file=", "", grep("^--file=", commandArgs(FALSE), value=TRUE)[1]))), "../../tools/qa/06_check_panel_layout.py"),
+      python=Sys.getenv("FIGURE_PYTHON", Sys.which("python")),
+      strict=TRUE
+    )
+  }
   rows <- list()
-  for (type in c("pdf", "png", "tiff")) {
+  for (type in c("pdf", "svg", "png", "tiff")) {
     path <- file.path(directory, paste0(stem, ".", type))
     open_device(path, type, width, height)
     tryCatch(if (is.null(revised)) plot_fun() else print(revised), finally = dev.off())
@@ -118,7 +133,7 @@ render_set <- function(stem, directory, width, height, plot_fun) {
       bytes = file.info(path)$size,
       width_inches = width,
       height_inches = height,
-      dpi = ifelse(type == "pdf", NA_integer_, ifelse(type == "png", 300L, 600L)),
+      dpi = ifelse(type %in% c("pdf","svg"), NA_integer_, ifelse(type == "png", 300L, 600L)),
       scientific_values_source = "Step100A CSV source pack"
     )
   }

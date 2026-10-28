@@ -9,7 +9,7 @@ This repository distributes software and aggregate audit evidence for **Longitud
 | Selected statistics | `tools/01_reproduce_selected_statistics.R` | External flat-file statistical inputs described in `docs/SELECTED_STATISTICS_REPRODUCTION.md` |
 | Specimen sensitivities | `tools/02_reproduce_specimen_sensitivity.R` | External specimen and pair inputs, plus the documented metafor environment |
 | Aggregate forest example | `tools/03_render_direction_forest.R` | The public aggregate forest source table |
-| Final figures | `tools/04_reproduce_final_figures.py` | The 24 external frozen CSV files in `docs/FINAL_FIGURE_INPUT_MANIFEST.csv` |
+| Final figures | `tools/04_reproduce_final_figures.py` | The 24 frozen CSV files supplied with the manuscript as Data Set S6 and identified in `docs/FINAL_FIGURE_INPUT_MANIFEST.csv` |
 | Prepared terminal chain | `tools/05_run_prepared_terminal_chain.ps1` | A separately prepared run root and its ordered 11-script chain; do not supply the entire historical analysis folder |
 
 Example figure rendering:

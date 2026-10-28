@@ -18,3 +18,7 @@ The corrected final figure display layer is now included in `analysis/final_figu
 
 The 8 October 2026 statistical-reporting addenda, including `REPORT_POOLED_EFFECT_TESTS.R` and `REPORT_DISCOVERY_SIGNED_RANK.R`, are distributed with Supplementary Data 5, not retroactively added to the archived 1.0.0 software. Documentation and citation-metadata updates on the current branch do not change inference, cohort selection or the fixed archival DOI.
 
+
+## Figure display update — 28 October 2026
+
+The final figure display layer is updated separately from the original Zenodo 1.0.0 scientific software archive. Use `tools/04_reproduce_final_figures.py` and the current [figure reproduction guide](docs/FINAL_FIGURE_PIPELINE.md). The manuscript supplies the 24 frozen figure-input CSVs and a copy of this code in Data Set S6. This code repository distributes software and input checksums; it does not duplicate those derived patient/sample-level inputs. The display update changes labels, spacing, exports and portability without changing the frozen scientific values or running inference.

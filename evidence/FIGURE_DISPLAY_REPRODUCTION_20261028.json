@@ -1,0 +1,109 @@
+{
+  "figures": 11,
+  "figure_exports": 44,
+  "input_CSVs_verified": 24,
+  "all_scientific_plates_unchanged": true,
+  "PNG_and_TIFF_byte_identical": 22,
+  "PDF_scientific_render_identical": 11,
+  "all_11_collision_and_font_checks_passed": true,
+  "original_alignment_auditor_passes": 4,
+  "legends_match_manuscript": true,
+  "records": [
+    {
+      "figure": "Figure_1_Study_Architecture",
+      "png": true,
+      "tiff": true,
+      "pdf_render_identical": true,
+      "collision_exit_code": 0,
+      "font_exit_code": 0
+    },
+    {
+      "figure": "Figure_2_Cross_Cohort_Longitudinal_Displacement",
+      "png": true,
+      "tiff": true,
+      "pdf_render_identical": true,
+      "collision_exit_code": 0,
+      "font_exit_code": 0
+    },
+    {
+      "figure": "Figure_3_Core_Sepsis_and_Taxonomic_Concordance",
+      "png": true,
+      "tiff": true,
+      "pdf_render_identical": true,
+      "collision_exit_code": 0,
+      "font_exit_code": 0
+    },
+    {
+      "figure": "Figure_4_External_Validation_Trauma_Comparison",
+      "png": true,
+      "tiff": true,
+      "pdf_render_identical": true,
+      "collision_exit_code": 0,
+      "font_exit_code": 0
+    },
+    {
+      "figure": "Figure_5_Infection_Source_Longitudinal_Ecology",
+      "png": true,
+      "tiff": true,
+      "pdf_render_identical": true,
+      "collision_exit_code": 0,
+      "font_exit_code": 0
+    },
+    {
+      "figure": "Supplementary_Figure_S1_Taxonomic_Concordance_Sensitivity",
+      "png": true,
+      "tiff": true,
+      "pdf_render_identical": true,
+      "collision_exit_code": 0,
+      "font_exit_code": 0
+    },
+    {
+      "figure": "Supplementary_Figure_S2_Pair_Counts",
+      "png": true,
+      "tiff": true,
+      "pdf_render_identical": true,
+      "collision_exit_code": 0,
+      "font_exit_code": 0
+    },
+    {
+      "figure": "Supplementary_Figure_S3_Bray_Meta_Analysis",
+      "png": true,
+      "tiff": true,
+      "pdf_render_identical": true,
+      "collision_exit_code": 0,
+      "font_exit_code": 0
+    },
+    {
+      "figure": "Supplementary_Figure_S4_CZM_Aitchison_Meta_Analysis",
+      "png": true,
+      "tiff": true,
+      "pdf_render_identical": true,
+      "collision_exit_code": 0,
+      "font_exit_code": 0
+    },
+    {
+      "figure": "Supplementary_Figure_S5_Family_Balance",
+      "png": true,
+      "tiff": true,
+      "pdf_render_identical": true,
+      "collision_exit_code": 0,
+      "font_exit_code": 0
+    },
+    {
+      "figure": "Supplementary_Figure_S6_Healthy_Reference",
+      "png": true,
+      "tiff": true,
+      "pdf_render_identical": true,
+      "collision_exit_code": 0,
+      "font_exit_code": 0
+    }
+  ],
+  "revision_date": "2026-10-28",
+  "base_commit": "65fd6087fd4e4858cce618c34c5d3262d451a784",
+  "inference_rerun": false,
+  "raw_read_processing_rerun": false,
+  "python_version": "3.12.14",
+  "existing_repository_unit_tests_passed": 9,
+  "scope": "Scientific figure plates only; surrounding submission review-page captions and page furniture are assembled separately.",
+  "source_scan_disposition": "The static source scanner prefers cairo_pdf and flags native pdf() by device name. All final PDFs contain real text and all SVGs contain text nodes; rendered glyph and collision audits passed."
+}

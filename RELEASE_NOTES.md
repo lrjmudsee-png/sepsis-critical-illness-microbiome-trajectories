@@ -1,3 +1,9 @@
+# Figure display update — 28 October 2026
+
+Updated the final R display layer, synchronized the complete manuscript legends, added editable SVG exports, removed author-machine paths and added portable physical plot-area checks. The frozen inputs, patient selections, inferential analysis code and statistical results are unchanged. Native figure PDFs are retained during optional supplemental document assembly. No release tag or Zenodo record is created by this commit.
+
+The records below describe historical releases and preparation states.
+
 # Release notes
 
 ## Published archive and reporting-documentation synchronization — 2026-10-08

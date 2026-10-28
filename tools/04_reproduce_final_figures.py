@@ -9,6 +9,7 @@ import argparse
 import csv
 import hashlib
 import json
+import os
 from pathlib import Path
 import shutil
 import subprocess
@@ -51,7 +52,7 @@ def main() -> None:
             if not (args.font_dir / name).is_file():
                 parser.error(f"Missing font: {name}. Fonts are not redistributed with this repository.")
         try:
-            import PIL  # noqa: F401
+            import pypdf  # noqa: F401
             import reportlab  # noqa: F401
         except ImportError as exc:
             parser.error(f"Install requirements-figures.txt before PDF assembly: {exc}")
@@ -66,14 +67,17 @@ def main() -> None:
                          "--font-dir", str(args.font_dir.resolve())])
     # The first R stage owns creation of the output folder and never overwrites it.
     for index, command in enumerate(commands, 1):
-        result = subprocess.run(command, text=True, encoding="utf-8", errors="replace", capture_output=True)
+        environment = os.environ.copy()
+        environment["FIGURE_PYTHON"] = sys.executable
+        result = subprocess.run(command, text=True, encoding="utf-8", errors="replace", capture_output=True, env=environment)
         if output.is_dir():
             (output / f"reproduction_stage_{index}.log").write_text(result.stdout + result.stderr, encoding="utf-8")
         if result.returncode:
             raise RuntimeError(f"Reproduction stage {index} failed: {result.stderr or result.stdout}")
-    rendered = list((output / "02_MAIN_FIGURES").glob("*")) + list((output / "03_SUPPLEMENTARY_FIGURES").glob("*"))
-    if len(rendered) != 33:
-        raise RuntimeError(f"Expected 33 figure exports, got {len(rendered)}.")
+    rendered = [p for directory in (output / "02_MAIN_FIGURES", output / "03_SUPPLEMENTARY_FIGURES")
+                for p in directory.iterdir() if p.suffix.lower() in {".pdf", ".svg", ".png", ".tiff"}]
+    if len(rendered) != 44:
+        raise RuntimeError(f"Expected 44 figure exports, got {len(rendered)}.")
     report = {"input_files_verified": len(records), "figure_exports": len(rendered),
               "inference_rerun": False, "raw_read_processing_rerun": False,
               "supplementary_pdf_assembled": bool(args.font_dir),
